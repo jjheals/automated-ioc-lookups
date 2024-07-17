@@ -1,0 +1,1744 @@
+[
+    {
+        "size": 896,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "cd624fe5c31384980c05e4ef44a2a5ecde9971901b283540b4d04d9d18488128ad5f10b32adb7dae9d911e42e7efaa198dd34edb910fa7e420322594feb924074d18d7c39a870e5f8bcb3e2bd751bfa8be8123a2bf68e521e5bf4b484eb305140c7d095c59043ca20bce997930bef0769e64b7ddef1f16bb1ecc0eb40c44cf65adc4c75ece6ff70a03b7b25b36d309775b4de223e902b7b1f2be11b2d9a44f2e125f78006942bd1492edeaea6b689b2d9c8056b07a437f5ff687f0a9275fbf7d30f72e5aeb4cdaaf3c9ad50406cb999b2da7b232bd27bff28610910f3395ff263c739fa5feefeb5aec30919da58331a9e310417e15ddafafa6f649b0582526f5",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "d5129635a050f63dd607ffa9271eefaab597c0975809765dad253973fc554d25",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "b9d9e2545cf561ed69f3b863ed035a9e2a81275a1b28334bfc2d7113fe4b657e1c53827980e6799f6ab345a9365aedc9e04acc11fc84eb7dcbc6946d9070d8cd45d8c8b6dd0f9d8401147d008e29b213b6e9c1b957c34d36c01d4b8d97f7b2afbf2ff04822d77df3ef3560c9d546d4a03400e48207e07ae6095ba71fb1302a6064bbb1f531f2770837b4fa3f2df61b442a1ff8c6fc23764263d3ba15f6468eec499fed2ec77483a2b6b7357fc5989fa2913093b0cb48156847de1a326006a638eb884e93d91c3ef23f495f6ee9dc18312a010bb66166d8c518b17ead954b182f8166c572692004b62913c883593dca765ba8d7ee8f1da0da2e0d9269c398e86a"
+        },
+        "validity": {
+            "not_after": "2030-01-01 00:00:00",
+            "not_before": "2015-01-01 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "key_usage": [
+                "digitalSignature",
+                "keyCertSign",
+                "keyEncipherment"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "CA": true,
+            "subject_key_identifier": "bb0f38966f3ebe4f2b46d0416ad4acb5"
+        },
+        "thumbprint": "4259517cd4e48a289d332ab3f0ab52a366322824",
+        "serial_number": "90768918e93393a",
+        "issuer": {
+            "OU": "No SNI provided; please fix your client.",
+            "CN": "invalid2.invalid"
+        },
+        "subject": {
+            "OU": "No SNI provided; please fix your client.",
+            "CN": "invalid2.invalid"
+        }
+    },
+    {
+        "size": 1563,
+        "public_key": {
+            "rsa": {
+                "key_size": 2048,
+                "modulus": "00bfa477a0a4e6402b2435e53cb5615309ea7236e05d818336098a852d1090c5a88f1e0d17f9635c7bec87399e759ac2d4499149d5ae5b09dab7bff064da68f8f30fc2756e101f428a89d4efd9d0498bdb3b57088315e92d1effc643c183047d0073f00aa251fde0d9b054d1c6bdbb1730b01f6807110eba72c00a053f9cf2ee732ad1bdd0ca6204cd30290a87e516f3acb276124946ec87c3960ed93957857783f27e6b2fe5350d8665b98df59dd00b9caed51f818425729a667389cb7e1a61ba3e7e65fac634ffa149994c1273d7bdd8cac8b73c1382471915edaae3a9e9a8b2ed0d936445b641f764a7b4fa381be1dc385e43ae053c4d4726d9ea98afa961e9",
+                "exponent": "010001"
+            },
+            "algorithm": "RSA"
+        },
+        "thumbprint_sha256": "dee9759d799230950b50ae8fe6a1a56003031a9895b2cb48715355d62463376f",
+        "cert_signature": {
+            "signature": "37f13760f135202f46d6e4774416521b7a70a7513160539d12923c60e779fd8cf3e8cd27aba3f5cba73d475e98305358c97451538a6325b5e633ce2f3388c839b77a9a86ab92807d8b197dc9599a46224bcd2d67facc09c79017b07aac16524d97e5ffa344e9d102c2ab97fa8e0d265933930c5fc2661796171578d1945c590f26e6ed019189ef638a0edd3e4d556c5c2c3216de4f98af3c6eab0cf5977b19a39e1ec2810d84fa5232084887dd08c0a4afbc63b7f079b62ab44c5dc5dd78f1c8782bb66762d7f1c5dad4c797a0776f961c693488a80cc74a0db2909ee17fa394e87c81ef267c406a99114da02da1d905e2b056127396757b7dda2ad3246116aa",
+            "signature_algorithm": "sha256RSA"
+        },
+        "validity": {
+            "not_after": "2023-08-06 23:59:59",
+            "not_before": "2022-08-10 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "certificate_policies": [
+                "2.23.140.1.2.1"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "authority_key_identifier": {
+                "keyid": "59a4660652a07b95923ca394072796745bf93dd0"
+            },
+            "subject_alternative_name": [
+                "dynamodb.us-east-1.amazonaws.com",
+                "*.ddb.us-east-1.amazonaws.com"
+            ],
+            "tags": [],
+            "subject_key_identifier": "1bc1d0d62ebb393a74d7d33bc3baeefd8a8f9a8c",
+            "crl_distribution_points": [
+                "http://crl.sca1b.amazontrust.com/sca1b-1.crl"
+            ],
+            "key_usage": [
+                "ff"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0482016a0168007600e83ed0da3ef5063532e75728bc896bc903d3cbd1116bec",
+            "CA": true,
+            "ca_information_access": {
+                "CA Issuers": "http://crt.sca1b.amazontrust.com/sca1b.crt",
+                "OCSP": "http://ocsp.sca1b.amazontrust.com"
+            }
+        },
+        "thumbprint": "2feed0efcde92414609074081bf9eba22ea7d020",
+        "serial_number": "08a653d2f04c77a9c649098481ce7ac7",
+        "issuer": {
+            "C": "US",
+            "CN": "Amazon",
+            "O": "Amazon",
+            "OU": "Server CA 1B"
+        },
+        "subject": {
+            "CN": "dynamodb.us-east-1.amazonaws.com"
+        }
+    },
+    {
+        "size": 2366,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "93d4367f97cb0bfa6aeec2996c5f54c5a6db8ea1d371dae3f67061a52d5ab6e53d3f469d5b3a41a565d3d7758a27ee1769fe4d679b00e0446a455e6408b211364b003a5bbdf5d3cc43ab7e6022467520c2541cf520380ed959338d60bc767ea6311eb355a028ddde9450185fe4ab3e8145a146d124d257349c7fa6545eddc77ce70bd33e2b6703c03b2f4c8dcf26dc2ae34ace20a374474f33f797586ae6fb7da2931f43d9122d4c0a7fd102ac01dcd852667bf3a42a9cd43914acdb3bc5bc03975d98b0e4f78b5cc137a0543095eee35427c66548ce9111a6553d009d44fc475a51c0a3cdbf3bf21e06e5c24336a7ce5c06b96f5c20380ba44fb8e72969f81b",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "6fcefeaf9087a7f6bbdff7311e0e0b8bb8452cf5b8221a14ee1ea698945725d0",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "c1f7abf0c08ea8ab9179e46685402671d421f7a83e37f458667e7b89d50cf941226f299866859e6b40568b7823b08f9058e0159edd9225f1827b2f5560c91dfc0a832ac004b7d5ff626e9bf469c408003ae7bf64a374ff842e735b682bc68ecf8ed43539e2e0d035df0d9caa362b0273da79ce1bb3e1ac7fe25bba69462cecab00803ad68b0efc2fce136b4d5888da30b2da3363a3a73ff9641f1ae675d5ebe5d882b3b77391d364f1389ceff4da8c9c5d777f7e372374493b13c086ee43c9519fdf0dbe5c9ba68d796ec6863685ec6db0c76f9193bbd94b3ace48035068e4c0510b34ce15905f4b463f3a34055978b30ad4881bddb53a6bcac3ecae7165d78d"
+        },
+        "validity": {
+            "not_after": "2025-02-16 00:12:01",
+            "not_before": "2024-01-18 00:13:01"
+        },
+        "version": "V3",
+        "extensions": {
+            "key_usage": [
+                "digitalSignature",
+                "keyEncipherment"
+            ],
+            "ca_information_access": {
+                "OCSP": "http://commercial.ocsp.identrust.com",
+                "CA Issuers": "http://validation.identrust.com/certs/hydrantidcaO1.p7c"
+            },
+            "authority_key_identifier": {
+                "keyid": "89b89bb69eedfbb0c6bd0dec674e3ca3929d2df9"
+            },
+            "certificate_policies": [
+                "2.23.140.1.2.2",
+                "2.16.840.1.113839.0.6.3"
+            ],
+            "crl_distribution_points": [
+                "http://validation.identrust.com/crl/hydrantidcao1.crl"
+            ],
+            "subject_alternative_name": [
+                "146.112.41.2",
+                "146.112.41.3",
+                "146.112.41.4",
+                "146.112.41.5",
+                "208.67.220.2",
+                "208.67.222.2",
+                "208.67.220.123",
+                "208.67.220.220",
+                "208.67.222.123",
+                "208.67.222.222",
+                "155.190.111.111",
+                "155.190.111.123",
+                "204.194.232.200",
+                "204.194.234.200",
+                "2620:0:ccc::2",
+                "2620:0:ccd::2",
+                "2620:119:35::35",
+                "2620:119:35::123",
+                "2620:119:53::53",
+                "2620:119:53::123",
+                "2620:119:fa::53",
+                "2620:119:fa::120",
+                "2620:119:fc::2",
+                "2620:119:fc::3",
+                "2620:119:fc::4",
+                "2620:119:fc::5",
+                "dns.opendns.com",
+                "doh.opendns.com",
+                "dns.umbrella.com",
+                "doh.umbrella.com",
+                "pdns.opendns.com",
+                "dns.sse.cisco.com",
+                "doh.sse.cisco.com",
+                "pdns.umbrella.com",
+                "sandbox.opendns.com",
+                "sandbox.sse.cisco.com",
+                "doh.sandbox.opendns.com",
+                "familyshield.opendns.com",
+                "familyshield.sse.cisco.com",
+                "doh.familyshield.opendns.com",
+                "resolvertest.doh.opendns.com",
+                "*.resolvertest.doh.opendns.com",
+                "resolvertest.doh.sse.cisco.com",
+                "*.resolvertest.doh.sse.cisco.com"
+            ],
+            "subject_key_identifier": "64ef6cbd0b600f14afc10990a27daa609a490b67",
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0482016b01690076004e75a3275c9a10c3385b6cd4df3f52eb1df0e08e1b8d69"
+        },
+        "thumbprint": "61db0a3062cdcecfe92d8be1433a3c917a769381",
+        "serial_number": "40018d19e9fcde734bf4b6f90c6ec531",
+        "issuer": {
+            "C": "US",
+            "O": "IdenTrust",
+            "OU": "HydrantID Trusted Certificate Service",
+            "CN": "HydrantID Server CA O1"
+        },
+        "subject": {
+            "C": "US",
+            "ST": "California",
+            "L": "San Jose",
+            "O": "Cisco Systems Inc.",
+            "CN": "doh.opendns.com"
+        }
+    },
+    {
+        "size": 2579,
+        "public_key": {
+            "rsa": {
+                "key_size": 2048,
+                "modulus": "00bd8d714010d1bf40bb0ce3d106fca72dc49535c51c0cc17ba78f445dc8c9db4e6301e0e9e60832d1b64ec95fe55342eeb7ae7e4d77fb5f669d176f8067ef1a5c22e63cb8e08cb7a0978080ce4a4a668250b80e76b421fc65fead2f53b6d47bc4fbb3aa5f3d07c4e4d2b535d7c157ac5d3d4c82a4d30bb5cefa5049d465108247b73f5b7fd0c02a5cf479e3b0d667235e5e7bd554a64f79881da8ffba83365257379bc36921b610ee21ab5457cb06c949e34a12365c1f642555c565987dc4faf32a34c7338a31da5b151f0095df5ae9cf2b64ddc99e48f28fd0eec95de83a3d46363c8b752d6fece076f3933be75d36771ec25be13f0713e34bc99f43772055c5",
+                "exponent": "010001"
+            },
+            "algorithm": "RSA"
+        },
+        "thumbprint_sha256": "f5b08e2966bad8e70ae2289a9d5a5962ded94d8f77563feae1bcebfb3112c1b6",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "024c89517b395849e2e660b8a1487767d3e7f3c945d05c06c71db1fff01216395f8d40dad43d4421ff7905082e3b87b5e481813c839038aec16de4afae3154151b74e21110d27407c4743d66bb49a3c68c69774f9516e9ccab21ea094d332a28d6d0d601e33394f513b6060ec1893d7bb62712fee01f3ddb78b35de9b56afecd9e453ea26b8f1c30e6cd6bd20723fe02152173417f5386f1099418bbe0402c2d8c333d6fec7ee3efd4f464d2138a65eff5e5709350a6a892039160334ba962324b2bf34116a478ef9bb1b784e09bdcd6502f8dd45e6137ee918f0ea2e344bd84843d59c0e21f222a66039f3b8953a66d0744af907b6511f79cfdd3b89abe8cc9"
+        },
+        "validity": {
+            "not_after": "2020-05-06 11:37:04",
+            "not_before": "2020-02-12 11:37:04"
+        },
+        "version": "V3",
+        "extensions": {
+            "certificate_policies": [
+                "2.23.140.1.2.2",
+                "1.3.6.1.4.1.11129.2.5.3"
+            ],
+            "extended_key_usage": [
+                "serverAuth"
+            ],
+            "tags": [],
+            "subject_alternative_name": [
+                "*.google.com",
+                "*.android.com",
+                "*.appengine.google.com",
+                "*.cloud.google.com",
+                "*.crowdsource.google.com",
+                "*.g.co",
+                "*.gcp.gvt2.com",
+                "*.gcpcdn.gvt1.com",
+                "*.ggpht.cn",
+                "*.gkecnapps.cn",
+                "*.google-analytics.com",
+                "*.google.ca",
+                "*.google.cl",
+                "*.google.co.in",
+                "*.google.co.jp",
+                "*.google.co.uk",
+                "*.google.com.ar",
+                "*.google.com.au",
+                "*.google.com.br",
+                "*.google.com.co",
+                "*.google.com.mx",
+                "*.google.com.tr",
+                "*.google.com.vn",
+                "*.google.de",
+                "*.google.es",
+                "*.google.fr",
+                "*.google.hu",
+                "*.google.it",
+                "*.google.nl",
+                "*.google.pl",
+                "*.google.pt",
+                "*.googleadapis.com",
+                "*.googleapis.cn",
+                "*.googlecnapps.cn",
+                "*.googlecommerce.com",
+                "*.googlevideo.com",
+                "*.gstatic.cn",
+                "*.gstatic.com",
+                "*.gstaticcnapps.cn",
+                "*.gvt1.com",
+                "*.gvt2.com",
+                "*.metric.gstatic.com",
+                "*.urchin.com",
+                "*.url.google.com",
+                "*.wear.gkecnapps.cn",
+                "*.youtube-nocookie.com",
+                "*.youtube.com",
+                "*.youtubeeducation.com",
+                "*.youtubekids.com",
+                "*.yt.be",
+                "*.ytimg.com",
+                "android.clients.google.com",
+                "android.com",
+                "developer.android.google.cn",
+                "developers.android.google.cn",
+                "g.co",
+                "ggpht.cn",
+                "gkecnapps.cn",
+                "goo.gl",
+                "google-analytics.com",
+                "google.com",
+                "googlecnapps.cn",
+                "googlecommerce.com",
+                "source.android.google.cn",
+                "urchin.com",
+                "www.goo.gl",
+                "youtu.be",
+                "youtube.com",
+                "youtubeeducation.com",
+                "youtubekids.com",
+                "yt.be"
+            ],
+            "authority_key_identifier": {
+                "keyid": "98d1f86e10ebcf9bec609f18901ba0eb7d09fd2b"
+            },
+            "ca_information_access": {
+                "CA Issuers": "http://pki.goog/gsr2/GTS1O1.crt",
+                "OCSP": "http://ocsp.pki.goog/gts1o1"
+            },
+            "subject_key_identifier": "52a4579328aed9c5b0842e38b0253b2eca943d6a",
+            "crl_distribution_points": [
+                "http://crl.pki.goog/GTS1O1.crl"
+            ],
+            "key_usage": [
+                "ff"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f300f1007600b21e05cc8ba2cd8a204e8766f92bb98a2520676bdafa70e7",
+            "CA": true
+        },
+        "thumbprint": "6677578f6e2363f4442abbe9cf37a83195657f17",
+        "serial_number": "64ab5e2cc949025508000000002e70d6",
+        "issuer": {
+            "C": "US",
+            "CN": "GTS CA 1O1",
+            "O": "Google Trust Services"
+        },
+        "subject": {
+            "C": "US",
+            "L": "Mountain View",
+            "CN": "*.google.com",
+            "O": "Google LLC",
+            "ST": "California"
+        }
+    },
+    {
+        "size": 896,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "cd624fe5c31384980c05e4ef44a2a5ecde9971901b283540b4d04d9d18488128ad5f10b32adb7dae9d911e42e7efaa198dd34edb910fa7e420322594feb924074d18d7c39a870e5f8bcb3e2bd751bfa8be8123a2bf68e521e5bf4b484eb305140c7d095c59043ca20bce997930bef0769e64b7ddef1f16bb1ecc0eb40c44cf65adc4c75ece6ff70a03b7b25b36d309775b4de223e902b7b1f2be11b2d9a44f2e125f78006942bd1492edeaea6b689b2d9c8056b07a437f5ff687f0a9275fbf7d30f72e5aeb4cdaaf3c9ad50406cb999b2da7b232bd27bff28610910f3395ff263c739fa5feefeb5aec30919da58331a9e310417e15ddafafa6f649b0582526f5",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "d5129635a050f63dd607ffa9271eefaab597c0975809765dad253973fc554d25",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "b9d9e2545cf561ed69f3b863ed035a9e2a81275a1b28334bfc2d7113fe4b657e1c53827980e6799f6ab345a9365aedc9e04acc11fc84eb7dcbc6946d9070d8cd45d8c8b6dd0f9d8401147d008e29b213b6e9c1b957c34d36c01d4b8d97f7b2afbf2ff04822d77df3ef3560c9d546d4a03400e48207e07ae6095ba71fb1302a6064bbb1f531f2770837b4fa3f2df61b442a1ff8c6fc23764263d3ba15f6468eec499fed2ec77483a2b6b7357fc5989fa2913093b0cb48156847de1a326006a638eb884e93d91c3ef23f495f6ee9dc18312a010bb66166d8c518b17ead954b182f8166c572692004b62913c883593dca765ba8d7ee8f1da0da2e0d9269c398e86a"
+        },
+        "validity": {
+            "not_after": "2030-01-01 00:00:00",
+            "not_before": "2015-01-01 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "key_usage": [
+                "digitalSignature",
+                "keyCertSign",
+                "keyEncipherment"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "CA": true,
+            "subject_key_identifier": "bb0f38966f3ebe4f2b46d0416ad4acb5"
+        },
+        "thumbprint": "4259517cd4e48a289d332ab3f0ab52a366322824",
+        "serial_number": "90768918e93393a",
+        "issuer": {
+            "OU": "No SNI provided; please fix your client.",
+            "CN": "invalid2.invalid"
+        },
+        "subject": {
+            "OU": "No SNI provided; please fix your client.",
+            "CN": "invalid2.invalid"
+        }
+    },
+    {
+        "size": 1629,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "b3d03ff45500226a74f331fa537efea510dbe833bd59774b21ed3ff5d5efb9870296781c41467c5a1102f06a2028bd756a7a148fb1c89518b10c986e156c9ff0e5d5429a266880c3a20d4a0c1d90e969cfeb09803576577831846f14473d3f1fea6d7cbf780db04570d58e064abb0df50be7f26f0280f9aa0d1d894f3483a25dfd0c710afed85b28d5b9e45ffded82163393a8cbdafb6a43508139883cc53613e5037c5f836a8f4ff087a31bfcae54cbe85e1e1637cb06dd0afa99daf42917edbc468cdcb8d54602b298b16a791539c3f5777d348677462554202eedb3f48989993cf2a16ecbd45448a64c1e92620f5ad053d0581575083bbfa916b262e3bf1f",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "da00c2e1ea6e8db6a104a09360c855839eecb4033dc1a2bac13c61fc3e5a79f4",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "2a40ee3ad55ee40a638753c1070775b1cf0a8861c9f25e60a6177fffc955f40071e89c7a7cecbb4bb2637f918824f0800d5c212c47436aee5eec6f793e1993c2e8e9fd84f90aaf7830182ce38b646411075570857d981cf2eba4e8a33007f33257271eb1ec48c8c5d8408b7fd1b11a22098b9eb873e9a1434abb742b85db5dce62ff4693861cd24a48e1de494b0c9adf56aaf2ef165ecfdfc91b56fbef87b555403b4516faf3aed2d6f36bc6162d11be1277e7995c6713ad68c9d7098c6423c830f122c8cdd119a5431479a8e4d9f3adb414a49a69e8dccfdb3d11c056c7b2d0d93ca90fc1fc3f423014db2e4e42d66c550deac2d52d38d656fb3272494ca327"
+        },
+        "validity": {
+            "not_after": "2024-10-05 14:10:53",
+            "not_before": "2023-09-04 14:10:54"
+        },
+        "version": "V3",
+        "extensions": {
+            "key_usage": [
+                "digitalSignature",
+                "keyEncipherment"
+            ],
+            "CA": false,
+            "ca_information_access": {
+                "CA Issuers": "http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt",
+                "OCSP": "http://ocsp.globalsign.com/gsrsaovsslca2018"
+            },
+            "certificate_policies": [
+                "1.3.6.1.4.1.4146.1.20",
+                "2.23.140.1.2.2"
+            ],
+            "subject_alternative_name": [
+                "mail.ru",
+                "bk.ru",
+                "inbox.ru",
+                "list.ru",
+                "xn--i1aeb2e.xn--p1ai"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "authority_key_identifier": {
+                "keyid": "f8ef7ff2cd7867a8de6f8f248d88f1870302b3eb"
+            },
+            "subject_key_identifier": "9da8655c64401ee664a90eb1c70355a9a82dbbb2",
+            "1.3.6.1.4.1.11129.2.4.2": "048201690167007600eecdd064d5db1acec55cb79db4cd13a23287467cbcecde"
+        },
+        "thumbprint": "838cba1aa8e924e1d2096750678225266ecd4466",
+        "serial_number": "6652126d6e1c7f4b42f23aed",
+        "issuer": {
+            "C": "BE",
+            "O": "GlobalSign nv-sa",
+            "CN": "GlobalSign RSA OV SSL CA 2018"
+        },
+        "subject": {
+            "CN": "mail.ru",
+            "O": "VK LLC",
+            "L": "Moscow",
+            "ST": "Moscow",
+            "C": "RU"
+        }
+    },
+    {
+        "size": 2122,
+        "public_key": {
+            "ec": {
+                "oid": "secp256r1",
+                "pub": "3059301306072a8648ce3d020106082a8648ce3d030107034200041ba73b45d7d1948351b92073aef3fb77af348815ae9edbe6a29d98d5d7d3de1165dd7b1fb40ee534c0fba27def07cdfa64ae45522ddd4c4338a169f4606cac09"
+            },
+            "algorithm": "EC"
+        },
+        "thumbprint_sha256": "95a6253cf5ba9e9c79c9e16674ae68da2899754393ff3faa5c4bd510b38d95a7",
+        "cert_signature": {
+            "signature": "3064023019ffd1308cfa3af1a070e494aec920f1d5582b68130a192b571509d0dddd8b4b9607b37c8ea7e1990fe86319a2a97865023076bb188c8ddcf624714262d8b2e901553a2e94476e2bf7bda89802dbc92f6c17e0d5e8c068a52459929f5ed2aeed7719",
+            "signature_algorithm": "1.2.840.10045.4.3.3"
+        },
+        "validity": {
+            "not_after": "2023-11-17 23:59:59",
+            "not_before": "2022-10-27 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "certificate_policies": [
+                "2.23.140.1.2.2"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "authority_key_identifier": {
+                "keyid": "0abc0829178ca5396d7a0ece33c72eb3edfbc37a"
+            },
+            "subject_alternative_name": [
+                "*.wikipedia.org",
+                "wikimedia.org",
+                "mediawiki.org",
+                "wikibooks.org",
+                "wikidata.org",
+                "wikinews.org",
+                "wikiquote.org",
+                "wikisource.org",
+                "wikiversity.org",
+                "wikivoyage.org",
+                "wiktionary.org",
+                "wikimediafoundation.org",
+                "w.wiki",
+                "wmfusercontent.org",
+                "*.m.wikipedia.org",
+                "*.wikimedia.org",
+                "*.m.wikimedia.org",
+                "*.planet.wikimedia.org",
+                "*.mediawiki.org",
+                "*.m.mediawiki.org",
+                "*.wikibooks.org",
+                "*.m.wikibooks.org",
+                "*.wikidata.org",
+                "*.m.wikidata.org",
+                "*.wikinews.org",
+                "*.m.wikinews.org",
+                "*.wikiquote.org",
+                "*.m.wikiquote.org",
+                "*.wikisource.org",
+                "*.m.wikisource.org",
+                "*.wikiversity.org",
+                "*.m.wikiversity.org",
+                "*.wikivoyage.org",
+                "*.m.wikivoyage.org",
+                "*.wiktionary.org",
+                "*.m.wiktionary.org",
+                "*.wikimediafoundation.org",
+                "*.wmfusercontent.org",
+                "wikipedia.org",
+                "wikifunctions.org",
+                "*.wikifunctions.org"
+            ],
+            "subject_key_identifier": "b68799b4b74aba001b011d85cbabf4378deef5a9",
+            "crl_distribution_points": [
+                "http://crl3.digicert.com/DigiCertTLSHybridECCSHA3842020CA1-1.crl",
+                "http://crl4.digicert.com/DigiCertTLSHybridECCSHA3842020CA1-1.crl"
+            ],
+            "key_usage": [
+                "digitalSignature"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0482016b0169007700e83ed0da3ef5063532e75728bc896bc903d3cbd1116bec",
+            "CA": false,
+            "ca_information_access": {
+                "CA Issuers": "http://cacerts.digicert.com/DigiCertTLSHybridECCSHA3842020CA1-1.crt",
+                "OCSP": "http://ocsp.digicert.com"
+            }
+        },
+        "thumbprint": "91d4dddd2ff918e01907d86bc75454f11a8f2cdc",
+        "serial_number": "40f88677ff0b0c3d94286026216ece9",
+        "issuer": {
+            "C": "US",
+            "CN": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+            "O": "DigiCert Inc"
+        },
+        "subject": {
+            "C": "US",
+            "L": "San Francisco",
+            "CN": "*.wikipedia.org",
+            "O": "Wikimedia Foundation, Inc.",
+            "ST": "California"
+        }
+    },
+    {
+        "size": 896,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "cd624fe5c31384980c05e4ef44a2a5ecde9971901b283540b4d04d9d18488128ad5f10b32adb7dae9d911e42e7efaa198dd34edb910fa7e420322594feb924074d18d7c39a870e5f8bcb3e2bd751bfa8be8123a2bf68e521e5bf4b484eb305140c7d095c59043ca20bce997930bef0769e64b7ddef1f16bb1ecc0eb40c44cf65adc4c75ece6ff70a03b7b25b36d309775b4de223e902b7b1f2be11b2d9a44f2e125f78006942bd1492edeaea6b689b2d9c8056b07a437f5ff687f0a9275fbf7d30f72e5aeb4cdaaf3c9ad50406cb999b2da7b232bd27bff28610910f3395ff263c739fa5feefeb5aec30919da58331a9e310417e15ddafafa6f649b0582526f5",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "d5129635a050f63dd607ffa9271eefaab597c0975809765dad253973fc554d25",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "b9d9e2545cf561ed69f3b863ed035a9e2a81275a1b28334bfc2d7113fe4b657e1c53827980e6799f6ab345a9365aedc9e04acc11fc84eb7dcbc6946d9070d8cd45d8c8b6dd0f9d8401147d008e29b213b6e9c1b957c34d36c01d4b8d97f7b2afbf2ff04822d77df3ef3560c9d546d4a03400e48207e07ae6095ba71fb1302a6064bbb1f531f2770837b4fa3f2df61b442a1ff8c6fc23764263d3ba15f6468eec499fed2ec77483a2b6b7357fc5989fa2913093b0cb48156847de1a326006a638eb884e93d91c3ef23f495f6ee9dc18312a010bb66166d8c518b17ead954b182f8166c572692004b62913c883593dca765ba8d7ee8f1da0da2e0d9269c398e86a"
+        },
+        "validity": {
+            "not_after": "2030-01-01 00:00:00",
+            "not_before": "2015-01-01 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "key_usage": [
+                "digitalSignature",
+                "keyCertSign",
+                "keyEncipherment"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "CA": true,
+            "subject_key_identifier": "bb0f38966f3ebe4f2b46d0416ad4acb5"
+        },
+        "thumbprint": "4259517cd4e48a289d332ab3f0ab52a366322824",
+        "serial_number": "90768918e93393a",
+        "issuer": {
+            "OU": "No SNI provided; please fix your client.",
+            "CN": "invalid2.invalid"
+        },
+        "subject": {
+            "OU": "No SNI provided; please fix your client.",
+            "CN": "invalid2.invalid"
+        }
+    },
+    {
+        "size": 3420,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "d43f97f571dc64109f56f68c9dfad1208cf379bc2f239c9b242ac59c1ef8e36541dedf7525cd9366ff957d68561f187f5735cb8115199d1801535f2360599af5395509364d48d3df33c5548643f54a5b1f4ef9dc3b483fa9e167dac3976fdd35f4ddf776d4da607cca87064a10bfe94b7578f3c0a8501ac3ea5b8bdd638282082c905ad089d3c48b2b13b09a57eb1a932bba9a45a57a9ac1c6d9ea319da873f86e15bb045b0bfb37d18fb0f86603eaaacea5fe9415dafd6be6b00ab0b1aa3c68d695de7a2500e83578d7f28483c85e6ce461f62f1b3a15280391d739d36ca80fc991faa6bfe34145ab7e1caff316952315013a87bef2c32cce108ac2116b168d",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "49da1e1906c00ba705ee4050e9de0aaaacbf9e3398a0daeaa56318fd12def88c",
+        "cert_signature": {
+            "signature_algorithm": "1.2.840.113549.1.1.12",
+            "signature": "68777a3abfb0dabccc410433d363c2129e8244e67f9580107798ff812d7196d546ab641d69cb5f8dd8e8462dd27c5f6d3c03b8ff5f18c9b96ed9f83cfe9b8d4502c4dc333ad06023a59872cf52567048cd71b491518ba3d69014bef44c6be8407380333fe74227762d88cf919d8de8b18ae31c671fdc9d214176f4a63ca443f133f9baeadd9f56ee9fff78db246bd5973ae4031ba627cfd24e192cd5f1bd4e88d1876f50a9bb37f1b6f462750132732c236f8c52f7208e68281ea545a75c66823afc067a010fee4efb1958d37ed4ad51392b13aa3e469dcc4b5415de43224efb7afc9e457610cc2711bff3daebe2a56138a1e5df2eeb5fb18c577dd4db67aec68c1e1c75c4be6ec62667f4a043cf0485b31c6983f98bf7f0076c3becc6c0ece44132b794473f8eb36f9ee0b850645c7a520faa393334de9234d1206645734ac8951903e9647fbf67d51eaacb7a45c7bee3af5180d0b34731e211646bf79f9bbb800130b009fc864d5c96b19ac08702e89469baac1b58e37018ee953252e2979388341f71833753999b96fb4f8ffb8ea5079e4fb4459007020a87177f773b7587b8a509b2a93bcf3308a22349d4e1bc4867bae5cfca71fefcc1cf2263199033df221bf06d0cd657f8373c82c268bdc51ec2bf52067b2eadc192215fff4436d890804ab38ffc426629a571ecd8fc54508e2c25b62cfb4f3b81f8b71a91f9f874dc"
+        },
+        "validity": {
+            "not_after": "2024-12-16 08:14:10",
+            "not_before": "2024-06-19 08:14:10"
+        },
+        "version": "V3",
+        "extensions": {
+            "1.3.6.1.4.1.11129.2.4.2": "04820169016700750076ff883f0ab6fb9551c261ccf587ba34b4a4cdbb29dc68",
+            "1.3.6.1.4.1.311.21.10": "3018300a06082b06010505070302300a06082b06010505070301",
+            "1.3.6.1.4.1.311.21.7": "302d06252b060104018237150887bdd71b81e7eb4682819d2e8ed00c87f0da1d",
+            "ca_information_access": {
+                "CA Issuers": "http://www.microsoft.com/pkiops/certs/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2004%20-%20xsign.crt",
+                "OCSP": "http://oneocsp.microsoft.com/ocsp"
+            },
+            "subject_key_identifier": "1fc7b57a6e3702b053d4e4c5d1f917964d4e324e",
+            "key_usage": [
+                "digitalSignature",
+                "keyEncipherment"
+            ],
+            "subject_alternative_name": [
+                "*.platform.bing.com",
+                "*.bing.com",
+                "bing.com",
+                "ieonline.microsoft.com",
+                "*.windowssearch.com",
+                "cn.ieonline.microsoft.com",
+                "*.origin.bing.com",
+                "*.mm.bing.net",
+                "*.api.bing.com",
+                "*.cn.bing.net",
+                "*.cn.bing.com",
+                "ssl-api.bing.com",
+                "ssl-api.bing.net",
+                "*.api.bing.net",
+                "*.bingapis.com",
+                "bingsandbox.com",
+                "feedback.microsoft.com",
+                "insertmedia.bing.office.net",
+                "r.bat.bing.com",
+                "*.r.bat.bing.com",
+                "*.dict.bing.com",
+                "*.ssl.bing.com",
+                "*.appex.bing.com",
+                "*.platform.cn.bing.com",
+                "wp.m.bing.com",
+                "*.m.bing.com",
+                "global.bing.com",
+                "windowssearch.com",
+                "search.msn.com",
+                "*.bingsandbox.com",
+                "*.api.tiles.ditu.live.com",
+                "*.t0.tiles.ditu.live.com",
+                "*.t1.tiles.ditu.live.com",
+                "*.t2.tiles.ditu.live.com",
+                "*.t3.tiles.ditu.live.com",
+                "3d.live.com",
+                "api.search.live.com",
+                "beta.search.live.com",
+                "cnweb.search.live.com",
+                "ditu.live.com",
+                "farecast.live.com",
+                "image.live.com",
+                "images.live.com",
+                "local.live.com.au",
+                "localsearch.live.com",
+                "ls4d.search.live.com",
+                "mail.live.com",
+                "mapindia.live.com",
+                "local.live.com",
+                "maps.live.com",
+                "maps.live.com.au",
+                "mindia.live.com",
+                "news.live.com",
+                "origin.cnweb.search.live.com",
+                "preview.local.live.com",
+                "search.live.com",
+                "test.maps.live.com",
+                "video.live.com",
+                "videos.live.com",
+                "virtualearth.live.com",
+                "wap.live.com",
+                "webmaster.live.com",
+                "www.local.live.com.au",
+                "www.maps.live.com.au",
+                "webmasters.live.com",
+                "ecn.dev.virtualearth.net",
+                "www.bing.com"
+            ],
+            "CA": false,
+            "crl_distribution_points": [
+                "http://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2004.crl"
+            ],
+            "certificate_policies": [
+                "1.3.6.1.4.1.311.76.509.1.1",
+                "2.23.140.1.2.2"
+            ],
+            "authority_key_identifier": {
+                "keyid": "3b70d153e976259d60a8ca660fc69bae6f54166a"
+            },
+            "extended_key_usage": [
+                "clientAuth",
+                "serverAuth"
+            ]
+        },
+        "thumbprint": "f07063e6c5a13f3e40927d3b22661ad9f8d8b894",
+        "serial_number": "3300651d5cf9d60cb7fdb542b8000000651d5c",
+        "issuer": {
+            "C": "US",
+            "O": "Microsoft Corporation",
+            "CN": "Microsoft Azure RSA TLS Issuing CA 04"
+        },
+        "subject": {
+            "C": "US",
+            "ST": "WA",
+            "L": "Redmond",
+            "O": "Microsoft Corporation",
+            "CN": "www.bing.com"
+        }
+    },
+    {
+        "size": 1853,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "ad2b14a53a4c41afb8b098dd93ae5e51bede37ab0fa10fd60735a9edf983af05ab21ae54f39475d60d662ca68d8319c72c28369deac656c51414dff5eb6c6b26af4feb96fb650c8ea0a8b4074a2a270112ca6e131a00085b8d8138bbb12513ec0e79fa4e3ffb93be56da5ac50e5d99093b1f172abcc631e68c0153e7c1c180c3fa15de83762fc4b64d78894df0e96a58bf30f476c6fb771c7a05448ce2506e4adcad6ec840cab6524f765e3c483e631522f69e7ea702d69a0662f4b856f121df1eb8bc92b584433860b30a05a13f86a16d70ca338be1fff09a9309fccf4219eedb51c8a29f6b4ae731c6765b7bd01e1f3d8b111a544dfdeb8e038c83d3c1d515",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "09010cce9b722155c7e686b07739d3d2dc0605dea1a4984a0b965e18777726b5",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "72a5bf339b241c718322da50d08415fdfb98d16c52d5e6696be499c7c8b7d57e4d9ed09adbe3c796ec77996a01f969fdeaa4e3e258a6761c296ad97ccfef31dc4f4137a1fd54167b063f8589fa5ff575b3624832d8ea1245b86a8b557568c756fb31e2b023cf9bedb9bff055882dad4f23bac1f74d5a53f7fd00a0584a1399b6212ecc220ef0291f830f1a0d8f87c5165bb1b5e54d81bb70b8971bdb7364050a9f1d70af416ab15d9640e0dc25fd6a063e8186756e6a54e73706586d2135b9dc04b286f282ec702b863ecbc101fc0bf751827d5a8081cff6f549d4d6999cf5e12bdf13a21bfef8e3b413f17f6d518d5959cb050e2fe4f8d0cd14144c6bccda65"
+        },
+        "validity": {
+            "not_after": "2025-03-14 23:59:59",
+            "not_before": "2024-03-15 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "authority_key_identifier": {
+                "keyid": "748580c066c7df37decfbd2937aa031dbeedcd17"
+            },
+            "subject_key_identifier": "e86f57eb865198eb9fa5be53dadb94ac282efbed",
+            "subject_alternative_name": [
+                "*.github.io",
+                "github.io",
+                "githubusercontent.com",
+                "www.github.com",
+                "*.github.com",
+                "*.githubusercontent.com",
+                "github.com"
+            ],
+            "certificate_policies": [
+                "2.23.140.1.2.2"
+            ],
+            "key_usage": [
+                "digitalSignature",
+                "keyEncipherment"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "crl_distribution_points": [
+                "http://crl3.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl",
+                "http://crl4.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl"
+            ],
+            "ca_information_access": {
+                "OCSP": "http://ocsp.digicert.com",
+                "CA Issuers": "http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt"
+            },
+            "CA": false,
+            "1.3.6.1.4.1.11129.2.4.2": "0482016b01690076004e75a3275c9a10c3385b6cd4df3f52eb1df0e08e1b8d69"
+        },
+        "thumbprint": "97d8c5700f12246c88bcfa067e8ca74da8626728",
+        "serial_number": "63d4917404d39e513cb3feecd1b2e1b",
+        "issuer": {
+            "C": "US",
+            "O": "DigiCert Inc",
+            "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        "subject": {
+            "C": "US",
+            "ST": "California",
+            "L": "San Francisco",
+            "O": "GitHub, Inc.",
+            "CN": "*.github.io"
+        }
+    },
+    {
+        "size": 1398,
+        "public_key": {
+            "rsa": {
+                "key_size": 2048,
+                "modulus": "00a22207791fd71c00f7e5880c9d782e6aa961735bf899906ccd67fc37a7d3cc512ede71f4badc7ba930b1eb064762fc4aea7733323234fae9cb0596f3b45e86cfdaffc9544a6c01ac771547b649d1759117bb8cff4143ab4251d50c76a14bb32bbf6776e3805d061ccef7bbfb06d22a307cd5cca02e0405c8c13262a3661e60179afa161fdcf8ea606123eb0ee6f61d74da4eabf8aa62436ddd231bac019c7991f547a700c1dee4bb3ff97dcee4bb4ece29a8fd04774d0b2f8ee5c9a7b0b79e8524dc3653c631482411199665b2d82a7fd448051fc6354d254c431542f3718384e31edb397a1678c560c043484a620a53680581a8e3017337ba16f034554a1961",
+                "exponent": "010001"
+            },
+            "algorithm": "RSA"
+        },
+        "thumbprint_sha256": "86c101066c72013fd21973b17a172ae894b052f56e85674f182b845e266185f8",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "37c012b0ab2f375c6bcf62347d938dedb49a155846a81c2a45372a9eb7dc38ffd69184570ae2f43f6286027612d40e09180e31fda8afe3863824f4dd9b4fa67cdd070f9051c32526ca44f168dca8b8c38e6d03658a82c4dc8ecb7d42cedb46c08812061eb1312d3231def1f4df38e002da417dc401dd01e9634dd562b8daf02853637dace0752674feefe7271c6a0c7fda822cfbc27c7ee607cfcbce5f8d2e136caa7a9ca8c28a485dc2ad7a90f7ea11b432fd87acdb48ecfa4ea4b2fcea67ae7ffe739c67d40fdb75b93156c6355ecbcbbefb8fd096f71147576d4a64dad9f5c073d50041ec8b963592b2f6e0c4e780817b847c63a2bc227d0999e686c23abf"
+        },
+        "validity": {
+            "not_after": "2022-02-05 23:59:59",
+            "not_before": "2021-01-07 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "certificate_policies": [
+                "2.16.840.1.114412.1.2",
+                "2.23.140.1.2.1"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "tags": [],
+            "subject_alternative_name": [
+                "*.awsapps.com",
+                "*.awsapps.net"
+            ],
+            "authority_key_identifier": {
+                "keyid": "59a4660652a07b95923ca394072796745bf93dd0"
+            },
+            "ca_information_access": {
+                "CA Issuers": "http://crt.sca1b.amazontrust.com/sca1b.crt",
+                "OCSP": "http://ocsp.sca1b.amazontrust.com"
+            },
+            "subject_key_identifier": "87d5a003ab0dfafcac30c9c2e55814b5b94f9cf0",
+            "crl_distribution_points": [
+                "http://crl.sca1b.amazontrust.com/sca1b.crl"
+            ],
+            "key_usage": [
+                "ff"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f200f00076002979bef09e393921f056739f63a577e5be577d9c600af8f9",
+            "CA": true
+        },
+        "thumbprint": "55a5d1ec910b503abae25b9b9d96bc79a4d00a8f",
+        "serial_number": "e81cf6e9e8c73d321663b41cfcd0454",
+        "issuer": {
+            "C": "US",
+            "CN": "Amazon",
+            "O": "Amazon",
+            "OU": "Server CA 1B"
+        },
+        "subject": {
+            "CN": "*.awsapps.com"
+        }
+    },
+    {
+        "size": 1463,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "b9d3e57a1e4f31fb45d52329be5ac1a080314a3d7532c06298e343e5548c51193d484d58385fd1bd6870bfbe18dc9d2e0fa096592497b7eca46eff2d66e492c58b4b13959178d0b466ebf17faab7c49f185954c5c868386c6353ef3e23fcccb00fbb1da12904567ce486e19acd7bd08434d7acafff6eec092e6b1449c7d85c74c75a2adb8316add8a678e2053ad0c1450877d57bb3c135dd7a15ed197155df10244e9f29a5ef552f8eaf90b2b5b59ca62bdc294545a0ad67df52970e3c52c87f1d3ec372e0a7fc503c1eeb0437e4f3f457b1ba469b2212a9fc39db8d383a9de27a6a7120fe8b23a618f60d39312d8e196d1c0004501bc9217a96e2d827834a7d",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "f5b58b959d31c752b53fd1b61523778f11f19035e72ba1448fba6b1ff2c70172",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "5d20ec01354ae2dd9a3c01ae2d0b73e3bda9e990e905e6048819e588da77246bb9c5a03c953581bc2df0d14372959ca5c2fc93d0a6494d6b3235034c8216e8921499306dc61862ee0736869f7e824d71b7585f95cf071f815fa739ab88ff1d2ab189f4026b06bc168c1eca41129b7d0913e8c38e70f3817a796bb2788b0746c2cdd8451f5fdd61afc4c3571ed79922796039207c6b86087d63cb2426d7a0cdc9a24ae4d4389d2c3df594777f97591b40993dc84e8aa7ce6caa7fdb8d52b9700219e4a3238d7f2ee1eb0c2467c7b5af3c6e711f828a6b2dbaaebb1d3116603d715bfc7a3ec1d46a3e5520fae9f5fa942f048598795bb67f8abfcebf64b0c562dd"
+        },
+        "validity": {
+            "not_after": "2024-09-16 07:42:47",
+            "not_before": "2024-06-24 07:42:48"
+        },
+        "version": "V3",
+        "extensions": {
+            "key_usage": [
+                "digitalSignature",
+                "keyEncipherment"
+            ],
+            "extended_key_usage": [
+                "serverAuth"
+            ],
+            "CA": false,
+            "subject_key_identifier": "7aa937214e93197a588b0210117378b78e47cb10",
+            "authority_key_identifier": {
+                "keyid": "de1b1eed7915d43e3724c321bbec34396d42b230"
+            },
+            "ca_information_access": {
+                "OCSP": "http://o.pki.goog/wr2",
+                "CA Issuers": "http://i.pki.goog/wr2.crt"
+            },
+            "subject_alternative_name": [
+                "dns.google",
+                "dns.google.com",
+                "*.dns.google.com",
+                "8888.google",
+                "dns64.dns.google",
+                "8.8.8.8",
+                "8.8.4.4",
+                "2001:4860:4860::8888",
+                "2001:4860:4860::8844",
+                "2001:4860:4860::6464",
+                "2001:4860:4860::64"
+            ],
+            "certificate_policies": [
+                "2.23.140.1.2.1"
+            ],
+            "crl_distribution_points": [
+                "http://c.pki.goog/wr2/oQ6nyr8F0m0.crl"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f300f1007700eecdd064d5db1acec55cb79db4cd13a23287467cbcecdec3"
+        },
+        "thumbprint": "cf3f6ac9e3072bc0d26b8ada280748b3599a0451",
+        "serial_number": "c814c2932f3837a71264b3ffdb229a68",
+        "issuer": {
+            "C": "US",
+            "O": "Google Trust Services",
+            "CN": "WR2"
+        },
+        "subject": {
+            "CN": "dns.google"
+        }
+    },
+    {
+        "size": 1481,
+        "public_key": {
+            "rsa": {
+                "key_size": 2048,
+                "modulus": "00bb4155cf6138ef8d18a9329b82ec6745e3ce85806f7b9297aec6b5deb154ff003d75c80e5d02ed8a0054151cfdbf753483398762db97bb4c566dcb6f70340cad6b8819dc1361503397898c00c4d2e58626419ca6c7655b1148adc8ad5cd2184226573ead383df05fe6c028749289d79b50aadf558342ba34c1e2b727bb300c9af1ead6a38cc13044b1b0b441ab1cdbf41ff00b7c9f7749489aac44e54ce1dd264f6c9fd653089685960687c6d9e59db0180e548e108091b39e97285531d50a863f981fcfcaa93ab1fce653b6943452cb8d7a5feecb225ee8ee0f3fe4fb6b3baba0a9098ef837f8b5fe8ff5d2900cc237414152796cd971eeff489e9ab6368a87",
+                "exponent": "010001"
+            },
+            "algorithm": "RSA"
+        },
+        "thumbprint_sha256": "d19810fb2d661b7525681bd44e0c9155da2b12e08808174a2fd173d4a8fc2f26",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "8de18236ccad21eea2a216ae4d776be93dd95715133bafa21a16a8436181d8b8c340b88b1004dd88046a015e01394134f23b3daf8ccf2e4b6439c8f5c3979c19bdd1577db80bd04f9b4f7ed42ba270a499fd6c43b940a81e2c2c5ebd0722ecaf43a22a3aabd67cb0d16e496c4e8117cad27fc1d1244070b040c5d3da78aa40942571e1ad9c025a222696c20ea44657db626b1bd0c245df757feaecc76fbcde2b80b110fa325a761ba134cd59dbddeeec943307d9415b2555eb9373414d23d8b451e24327d9b2e95c9c62f143e82ba1c02cdce173dac9d0a8466ff3ab70e75ac1e5e5497a151825761ad7d534f313bd7a4e9fc76fb30465ae0edf156673c32bc6"
+        },
+        "validity": {
+            "not_after": "2022-03-27 06:28:46",
+            "not_before": "2021-12-27 06:28:47"
+        },
+        "version": "V3",
+        "extensions": {
+            "certificate_policies": [
+                "2.23.140.1.2.1",
+                "1.3.6.1.4.1.44947.1.1.1"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "tags": [],
+            "subject_alternative_name": [
+                "*.apps.verdigris.cf-app.com",
+                "*.login.sys.verdigris.cf-app.com",
+                "*.sys.verdigris.cf-app.com",
+                "*.uaa.sys.verdigris.cf-app.com",
+                "pcf.verdigris.cf-app.com",
+                "verdigris.cf-app.com"
+            ],
+            "authority_key_identifier": {
+                "keyid": "142eb317b75856cbae500940e61faf9d8b14c2c6"
+            },
+            "ca_information_access": {
+                "CA Issuers": "http://r3.i.lencr.org/",
+                "OCSP": "http://r3.o.lencr.org"
+            },
+            "subject_key_identifier": "d4dbd2a6205515c7c4242baec4873cdeff7fe581",
+            "key_usage": [
+                "ff"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f100ef007500dfa55eab68824f1f6cadeeb85f4e3e5aeacda212a46a5e8e",
+            "CA": true
+        },
+        "thumbprint": "8c30ae8e1ceda939d3ee495231288b05783c75a9",
+        "serial_number": "3f71a886bc1cacd47011a57e6c516708f29",
+        "issuer": {
+            "C": "US",
+            "CN": "R3",
+            "O": "Let's Encrypt"
+        },
+        "subject": {
+            "CN": "verdigris.cf-app.com"
+        }
+    },
+    {
+        "size": 1787,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "b0425e1ea2df0af6f71d6f5c87f4ab49f3066394214cd33ad3fd20f4adfe60a97eb0a1859a53eecc684702be39a26c0d4ceae3abb1da2024925df5587d7d776bec1accdebe5d9be565d6d542de7e3751ae627874790c162c80669f8b46166581f8225e59df4527354a53d70331dc8cb538fe13aed8f136727dcebc78d58a308e6e8f2c5e0b97cd6441cba2b3b50841c3bcc3866bafc088e8392da9c842a3231d59f2e16b2a468a3ff9928f81f754e2700c820b38fe2e7815d07213de5df757104927256e299b28cc6efbb063666df76c51089200508dd412a12ceb9f2655751dfc9c81308368e2ccd9970231af7136c2eade55f80d06dc7dd2d0c966f8ba55fd",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "9b064e1c5e428cf8bcb2dd64463243aeb05699fde2833548bd830072a6fc51a9",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "8ba902456d2dffdb65cd3c6c5607550cf5bdc96fac0594c8496bb692631804f9939a1df4d728070587636bc2f17a7d429c75b65a15a87bdc45a9e5a14a0a4bbcd33fa2ad8416e6ca4e49160b6bd9594b636ae541b7aa5769146222c117f4a473d0da89057dbff1dba6d4728f16ac8991427833ad3ef089e9eecd3a268d0972f479f299fbab6bf153d9fc2710863c74f6f32bab609417f1eeda97c9d9392c4811a5e62f58aa64867ae5f8bf357652767862b9be2b63a79e7e167832a9cdc4746fd350da960f9767e77c4f94756b3f2435e423521bab1b5786683a45489f020076d9e79f1d964df049e619c64b3172b71aedecb28be9db04bf0e711182f2234cb5"
+        },
+        "validity": {
+            "not_after": "2024-11-06 23:59:59",
+            "not_before": "2023-11-08 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "authority_key_identifier": {
+                "keyid": "748580c066c7df37decfbd2937aa031dbeedcd17"
+            },
+            "subject_key_identifier": "8b1db71469059b1c6d81066c780c0eaeab9625f0",
+            "subject_alternative_name": [
+                "twitter.com",
+                "www.twitter.com",
+                "x.com",
+                "www.x.com"
+            ],
+            "certificate_policies": [
+                "2.23.140.1.2.2"
+            ],
+            "key_usage": [
+                "digitalSignature",
+                "keyEncipherment"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "crl_distribution_points": [
+                "http://crl3.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl",
+                "http://crl4.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl"
+            ],
+            "ca_information_access": {
+                "OCSP": "http://ocsp.digicert.com",
+                "CA Issuers": "http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt"
+            },
+            "CA": false,
+            "1.3.6.1.4.1.11129.2.4.2": "0482016a0168007500eecdd064d5db1acec55cb79db4cd13a23287467cbcecde"
+        },
+        "thumbprint": "239c6a9b3fade4871b1f5527170eeebe04577d40",
+        "serial_number": "1a64d95c7abd34cdd19966cad9500e9",
+        "issuer": {
+            "C": "US",
+            "O": "DigiCert Inc",
+            "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        "subject": {
+            "C": "US",
+            "ST": "California",
+            "L": "San Francisco",
+            "O": "Twitter, Inc.",
+            "CN": "twitter.com"
+        }
+    },
+    {
+        "size": 1731,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "cfe99a54a3a41ae2292d458172b3a88b4cce2bbba2d73d9e696cf332d168ac031d1a7055f8865a42dc90e7ef867efd536ceac038a527b4ca7a96e35e0a5aee6520b396d7e43a993d78727d5d61143eba451422db055bbdd6c974118bdd5aca655251208a53b5cdd0d7af4522c94d29b73d786ab59f03bf444848e5dc430870281f02e9a7e5df6e3901246ce580a2017411de77aeca15550a16f8754556a754950d1ba2240175e73d94a28307c0db0047dd082e39cd58c6cc0f07870e1f9b1d65e00943a8fdad2c4daa366d868578dcb6b99ec558c51b6b789f28a15e595ff76c2fb04106459f17f69c5525377fb5fb5e2173db7bebb90c81350293d87297c207",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "357341ce3cbd12cbe1d8ed88a28e8f8fb8698ffe0943fc90ecfb72ee4786d09b",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "b235c0b2c39b94336c40f9e9ea74dc321989517aece98b41a81cde6a3b9e3d0826cdb56ca643d2db3b282c3f69ea7ca667bd9450d55fe2a4bad1dd6b1450a02aa435e65eb6adf7117cb98573fb874b1be4a7e48b9188c7b11379e8697566b5d10dfee521a659b22e0d81e76223900330d5390ae978da4295065a9b71b6b74a0ec470cc334cec3703cc5a3ac580f58813da0025d1c47c553c9bb7cff1e834e7c5fee7c34426920f436b7f42b1d0ef07c1600a0a3c1bd6dc09c780a17c737be600673a099fe7f4777b2a0fcd0b9034d669076f0012a851d3ce11dc3dfbe031186436112978eba20fb29aafcd9cb6d6917229b2ff917f69879186901a75d74d0c01"
+        },
+        "validity": {
+            "not_after": "2024-11-26 23:59:59",
+            "not_before": "2024-05-30 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "authority_key_identifier": {
+                "keyid": "b76ba2eaa8aa848c79eab4da0f98b2c59576b9f4"
+            },
+            "subject_key_identifier": "71e050d1e78052fb2314659d43a78d31aa566926",
+            "subject_alternative_name": [
+                "*.reddit.com",
+                "reddit.com"
+            ],
+            "certificate_policies": [
+                "2.23.140.1.2.2"
+            ],
+            "key_usage": [
+                "digitalSignature",
+                "keyEncipherment"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "crl_distribution_points": [
+                "http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl",
+                "http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl"
+            ],
+            "ca_information_access": {
+                "OCSP": "http://ocsp.digicert.com",
+                "CA Issuers": "http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crt"
+            },
+            "CA": false,
+            "1.3.6.1.4.1.11129.2.4.2": "0482016b0169007600eecdd064d5db1acec55cb79db4cd13a23287467cbcecde"
+        },
+        "thumbprint": "87b82aac8718a50b142523a16275b9d2ec9daabf",
+        "serial_number": "93655c2b54082ad3f2722c69acbef0d",
+        "issuer": {
+            "C": "US",
+            "O": "DigiCert Inc",
+            "CN": "DigiCert TLS RSA SHA256 2020 CA1"
+        },
+        "subject": {
+            "C": "US",
+            "ST": "California",
+            "L": "SAN FRANCISCO",
+            "O": "REDDIT, INC.",
+            "CN": "*.reddit.com"
+        }
+    },
+    {
+        "size": 2577,
+        "public_key": {
+            "rsa": {
+                "key_size": 2048,
+                "modulus": "00d116d1a28001746f30b14cd7effc16bf600b5cb681a409e3d34dc028f78180d72aaaa2cc612ad1c0c099cd0bd2dd61c6210f9b881d3d4f570cac9cfd79b7a77a3e953b2995ebda8b8170ac429e4daa9ab4f4fc4ce8e474eec45ec36385ba2fe0613e0f6a42775192adfbe67333ac0b546a8df31efbe9e9672ca95146f71c2c71560ca5a5cb70e490bb2ffc8578465041cd334a7b7935444a6522fda8ffc046dedac4523f57ea209f72bf579fbb7d5010ddb35a0f932234d17d0c0e519cd4fbd3b78b819d7e499aab1c2c9513aad91d6d290d00fe07f506134ad0353e291df958861d8cf2418dd3bd6f9eceedcdb94d7fa5cbffc1e534a812f168e23e79128933",
+                "exponent": "010001"
+            },
+            "algorithm": "RSA"
+        },
+        "thumbprint_sha256": "93c7724a296a063eea956d158f99702cc64ad5676a9e394f211c27369a311253",
+        "cert_signature": {
+            "signature": "b1d24da108638b704d9782fd9ffc60e35ce91080f3a8182e8914cf171bd0a6283f00db97266f42bac86c40a101bf8d00e8b30b934ac79273e0804bde61d64d6fc6228aa8b62656d116026ccc69b0635b82701af9b1399cf120b308bd0cace505ceb4b2928aece9b9ac250179995c75072f1b961b153b1702dd45b9235da25819ce70351f02cb8715b211d982f6ff950495c31b96a3cd0d6279704f44fd4ef4ecc4cd0939d5a6d4863b438789ff72ffac33d245fe511fea34e68a9b6ca713cb057e503712328c31fef1c394d65c1482c3ca0bfa1a3f6e4c1221e989eb6606f980d4a9d9536678b84cd6f66e60c4479de99809b823a8bb6fe4f1a20606cd15d2d0",
+            "signature_algorithm": "sha256RSA"
+        },
+        "validity": {
+            "not_after": "2020-04-14 08:07:53",
+            "not_before": "2020-01-21 08:07:53"
+        },
+        "version": "V3",
+        "extensions": {
+            "certificate_policies": [
+                "2.23.140.1.2.2",
+                "1.3.6.1.4.1.11129.2.5.3"
+            ],
+            "extended_key_usage": [
+                "serverAuth"
+            ],
+            "authority_key_identifier": {
+                "keyid": "98d1f86e10ebcf9bec609f18901ba0eb7d09fd2b"
+            },
+            "subject_alternative_name": [
+                "*.google.com",
+                "*.android.com",
+                "*.appengine.google.com",
+                "*.cloud.google.com",
+                "*.crowdsource.google.com",
+                "*.g.co",
+                "*.gcp.gvt2.com",
+                "*.gcpcdn.gvt1.com",
+                "*.ggpht.cn",
+                "*.gkecnapps.cn",
+                "*.google-analytics.com",
+                "*.google.ca",
+                "*.google.cl",
+                "*.google.co.in",
+                "*.google.co.jp",
+                "*.google.co.uk",
+                "*.google.com.ar",
+                "*.google.com.au",
+                "*.google.com.br",
+                "*.google.com.co",
+                "*.google.com.mx",
+                "*.google.com.tr",
+                "*.google.com.vn",
+                "*.google.de",
+                "*.google.es",
+                "*.google.fr",
+                "*.google.hu",
+                "*.google.it",
+                "*.google.nl",
+                "*.google.pl",
+                "*.google.pt",
+                "*.googleadapis.com",
+                "*.googleapis.cn",
+                "*.googlecnapps.cn",
+                "*.googlecommerce.com",
+                "*.googlevideo.com",
+                "*.gstatic.cn",
+                "*.gstatic.com",
+                "*.gstaticcnapps.cn",
+                "*.gvt1.com",
+                "*.gvt2.com",
+                "*.metric.gstatic.com",
+                "*.urchin.com",
+                "*.url.google.com",
+                "*.wear.gkecnapps.cn",
+                "*.youtube-nocookie.com",
+                "*.youtube.com",
+                "*.youtubeeducation.com",
+                "*.youtubekids.com",
+                "*.yt.be",
+                "*.ytimg.com",
+                "android.clients.google.com",
+                "android.com",
+                "developer.android.google.cn",
+                "developers.android.google.cn",
+                "g.co",
+                "ggpht.cn",
+                "gkecnapps.cn",
+                "goo.gl",
+                "google-analytics.com",
+                "google.com",
+                "googlecnapps.cn",
+                "googlecommerce.com",
+                "source.android.google.cn",
+                "urchin.com",
+                "www.goo.gl",
+                "youtu.be",
+                "youtube.com",
+                "youtubeeducation.com",
+                "youtubekids.com",
+                "yt.be"
+            ],
+            "tags": [],
+            "subject_key_identifier": "7633a512eeed582f29d0729a38bb2687da6fd163",
+            "crl_distribution_points": [
+                "http://crl.pki.goog/GTS1O1.crl"
+            ],
+            "key_usage": [
+                "ff"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f100ef007600b21e05cc8ba2cd8a204e8766f92bb98a2520676bdafa70e7",
+            "CA": true,
+            "ca_information_access": {
+                "CA Issuers": "http://pki.goog/gsr2/GTS1O1.crt",
+                "OCSP": "http://ocsp.pki.goog/gts1o1"
+            }
+        },
+        "thumbprint": "060d54fe5271e08546713a30a0408d967a5c5949",
+        "serial_number": "7d16453b479cd1ca08000000002ab243",
+        "issuer": {
+            "C": "US",
+            "CN": "GTS CA 1O1",
+            "O": "Google Trust Services"
+        },
+        "subject": {
+            "C": "US",
+            "ST": "California",
+            "CN": "*.google.com",
+            "O": "Google LLC",
+            "L": "Mountain View"
+        }
+    },
+    {
+        "size": 1704,
+        "public_key": {
+            "algorithm": "EC",
+            "ec": {
+                "oid": "secp256r1",
+                "pub": "3059301306072a8648ce3d020106082a8648ce3d030107034200042f0aa9d7fed5b434bd43c61afdfa00a0c7dad02f6fdc317542b19d48934f29bbdd53bb31614d51127bae5158f0f6c2f49d0958da4a611751cf22bf36fbe3b417"
+            }
+        },
+        "thumbprint_sha256": "63e7d22b2c577656fda31462799d86cb725da7112c7f59b42615b0f96ac3c348",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "1acbc4333407fa85c5fdadff93a9e138e99520a7a543a0b9176472152742b96bf7eb9349d87bcafcf041cc9587847ed5bf6c949c1902fb1125f2fb468fb4199ba0d35ac5fec33ec62ad45d93baf0e2a3bb4a8cae36644991269a3391668b3cd1df587b88fc93cdcb7aa2efdff1ced21ac6de661bbf6c3ece2d02162d950f6760c9eaa768e5e7cbad6a16e8b82c9a910f7e4a08128979d2e255999e6f26c636c50003e4f258802ce2ba6a5528e60dcd288aaa2e8ad46d45d3a8ad4788ddb22341eabdbd9c4b7a3f82260e59f1bb5eee2321f4d67c6b7f2a64012c8f301a63f82977b0c91137c0048de81dc831f8d55cc083738f7356df2278a3b2d711e5a5e1c0"
+        },
+        "validity": {
+            "not_after": "2025-01-21 23:59:59",
+            "not_before": "2023-12-30 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "authority_key_identifier": {
+                "keyid": "748580c066c7df37decfbd2937aa031dbeedcd17"
+            },
+            "subject_key_identifier": "bb33dd32519e48d8747ed58c407aae3f9eecfa48",
+            "subject_alternative_name": [
+                "cloudflare-dns.com",
+                "*.cloudflare-dns.com",
+                "one.one.one.one",
+                "1.0.0.1",
+                "1.1.1.1",
+                "162.159.36.1",
+                "162.159.46.1",
+                "2606:4700:4700::1001",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::64",
+                "2606:4700:4700::6400"
+            ],
+            "certificate_policies": [
+                "2.23.140.1.2.2"
+            ],
+            "key_usage": [
+                "digitalSignature",
+                "keyAgreement"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "crl_distribution_points": [
+                "http://crl3.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl",
+                "http://crl4.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl"
+            ],
+            "ca_information_access": {
+                "OCSP": "http://ocsp.digicert.com",
+                "CA Issuers": "http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt"
+            },
+            "CA": false,
+            "1.3.6.1.4.1.11129.2.4.2": "0482016a01680077004e75a3275c9a10c3385b6cd4df3f52eb1df0e08e1b8d69"
+        },
+        "thumbprint": "ae19172e6bebdcb24925f5e948577a9e62c74171",
+        "serial_number": "622a220dcd376b20952a347b70033c5",
+        "issuer": {
+            "C": "US",
+            "O": "DigiCert Inc",
+            "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        "subject": {
+            "C": "US",
+            "ST": "California",
+            "L": "San Francisco",
+            "O": "Cloudflare, Inc.",
+            "CN": "cloudflare-dns.com"
+        }
+    },
+    {
+        "size": 2577,
+        "public_key": {
+            "rsa": {
+                "key_size": 2048,
+                "modulus": "00d116d1a28001746f30b14cd7effc16bf600b5cb681a409e3d34dc028f78180d72aaaa2cc612ad1c0c099cd0bd2dd61c6210f9b881d3d4f570cac9cfd79b7a77a3e953b2995ebda8b8170ac429e4daa9ab4f4fc4ce8e474eec45ec36385ba2fe0613e0f6a42775192adfbe67333ac0b546a8df31efbe9e9672ca95146f71c2c71560ca5a5cb70e490bb2ffc8578465041cd334a7b7935444a6522fda8ffc046dedac4523f57ea209f72bf579fbb7d5010ddb35a0f932234d17d0c0e519cd4fbd3b78b819d7e499aab1c2c9513aad91d6d290d00fe07f506134ad0353e291df958861d8cf2418dd3bd6f9eceedcdb94d7fa5cbffc1e534a812f168e23e79128933",
+                "exponent": "010001"
+            },
+            "algorithm": "RSA"
+        },
+        "thumbprint_sha256": "93c7724a296a063eea956d158f99702cc64ad5676a9e394f211c27369a311253",
+        "cert_signature": {
+            "signature": "b1d24da108638b704d9782fd9ffc60e35ce91080f3a8182e8914cf171bd0a6283f00db97266f42bac86c40a101bf8d00e8b30b934ac79273e0804bde61d64d6fc6228aa8b62656d116026ccc69b0635b82701af9b1399cf120b308bd0cace505ceb4b2928aece9b9ac250179995c75072f1b961b153b1702dd45b9235da25819ce70351f02cb8715b211d982f6ff950495c31b96a3cd0d6279704f44fd4ef4ecc4cd0939d5a6d4863b438789ff72ffac33d245fe511fea34e68a9b6ca713cb057e503712328c31fef1c394d65c1482c3ca0bfa1a3f6e4c1221e989eb6606f980d4a9d9536678b84cd6f66e60c4479de99809b823a8bb6fe4f1a20606cd15d2d0",
+            "signature_algorithm": "sha256RSA"
+        },
+        "validity": {
+            "not_after": "2020-04-14 08:07:53",
+            "not_before": "2020-01-21 08:07:53"
+        },
+        "version": "V3",
+        "extensions": {
+            "certificate_policies": [
+                "2.23.140.1.2.2",
+                "1.3.6.1.4.1.11129.2.5.3"
+            ],
+            "extended_key_usage": [
+                "serverAuth"
+            ],
+            "authority_key_identifier": {
+                "keyid": "98d1f86e10ebcf9bec609f18901ba0eb7d09fd2b"
+            },
+            "subject_alternative_name": [
+                "*.google.com",
+                "*.android.com",
+                "*.appengine.google.com",
+                "*.cloud.google.com",
+                "*.crowdsource.google.com",
+                "*.g.co",
+                "*.gcp.gvt2.com",
+                "*.gcpcdn.gvt1.com",
+                "*.ggpht.cn",
+                "*.gkecnapps.cn",
+                "*.google-analytics.com",
+                "*.google.ca",
+                "*.google.cl",
+                "*.google.co.in",
+                "*.google.co.jp",
+                "*.google.co.uk",
+                "*.google.com.ar",
+                "*.google.com.au",
+                "*.google.com.br",
+                "*.google.com.co",
+                "*.google.com.mx",
+                "*.google.com.tr",
+                "*.google.com.vn",
+                "*.google.de",
+                "*.google.es",
+                "*.google.fr",
+                "*.google.hu",
+                "*.google.it",
+                "*.google.nl",
+                "*.google.pl",
+                "*.google.pt",
+                "*.googleadapis.com",
+                "*.googleapis.cn",
+                "*.googlecnapps.cn",
+                "*.googlecommerce.com",
+                "*.googlevideo.com",
+                "*.gstatic.cn",
+                "*.gstatic.com",
+                "*.gstaticcnapps.cn",
+                "*.gvt1.com",
+                "*.gvt2.com",
+                "*.metric.gstatic.com",
+                "*.urchin.com",
+                "*.url.google.com",
+                "*.wear.gkecnapps.cn",
+                "*.youtube-nocookie.com",
+                "*.youtube.com",
+                "*.youtubeeducation.com",
+                "*.youtubekids.com",
+                "*.yt.be",
+                "*.ytimg.com",
+                "android.clients.google.com",
+                "android.com",
+                "developer.android.google.cn",
+                "developers.android.google.cn",
+                "g.co",
+                "ggpht.cn",
+                "gkecnapps.cn",
+                "goo.gl",
+                "google-analytics.com",
+                "google.com",
+                "googlecnapps.cn",
+                "googlecommerce.com",
+                "source.android.google.cn",
+                "urchin.com",
+                "www.goo.gl",
+                "youtu.be",
+                "youtube.com",
+                "youtubeeducation.com",
+                "youtubekids.com",
+                "yt.be"
+            ],
+            "tags": [],
+            "subject_key_identifier": "7633a512eeed582f29d0729a38bb2687da6fd163",
+            "crl_distribution_points": [
+                "http://crl.pki.goog/GTS1O1.crl"
+            ],
+            "key_usage": [
+                "ff"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f100ef007600b21e05cc8ba2cd8a204e8766f92bb98a2520676bdafa70e7",
+            "CA": true,
+            "ca_information_access": {
+                "CA Issuers": "http://pki.goog/gsr2/GTS1O1.crt",
+                "OCSP": "http://ocsp.pki.goog/gts1o1"
+            }
+        },
+        "thumbprint": "060d54fe5271e08546713a30a0408d967a5c5949",
+        "serial_number": "7d16453b479cd1ca08000000002ab243",
+        "issuer": {
+            "C": "US",
+            "CN": "GTS CA 1O1",
+            "O": "Google Trust Services"
+        },
+        "subject": {
+            "C": "US",
+            "ST": "California",
+            "CN": "*.google.com",
+            "O": "Google LLC",
+            "L": "Mountain View"
+        }
+    },
+    {
+        "size": 1455,
+        "public_key": {
+            "algorithm": "RSA",
+            "rsa": {
+                "modulus": "e2a5a3caa5b0d191df1827d28b4eceaa9f178213b935f853412267a4d626d85b8f5bae5ba1eee4bee28503999131b8daa4c8478ce55f73426999e8b9fe1f0740c6fb2d44329aff5aa52ec368bcbb26f955ca011e794293e007a79e6b3a4eaf4b9d36c8ff4a951a7367f09d6d6a6064b8a087c00cd97529bd16013758507e002baadddf49f22cbe14b6b51e6753a667b8d291a482b78032c00ccd5321aa2341e3c279bae2c4c0943bd13ccf386d765fb51df9788c3ff8795ddf8952b93fdd89ee8ee51c1e9fecffe1fef66951dafc4d7637a0ae8bf93d1f05712d6ea1a6acfa54db2196a3f56a56439886ea1e16c4076d7f9d5019bd6204335a8e4d888886fff7",
+                "exponent": "10001",
+                "key_size": 2048
+            }
+        },
+        "thumbprint_sha256": "28866c5bb45193efc8bb8b8741d7d5e6897516c1c47f0e74a51d4c123c43d08e",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "072e4c19bd4ed2e2d04648f5158ee130e4d229bac0e1101788de6f2f576f0503f046d4e9b6beae087899e2faa03f74808909c7b605299ad1b4f0b20950c66d3b3111d85c966cee078f100463942374fdb9fa5b5785f9457deb1267d3dd2b3d6eace4fc3994cf2a3397986613c88b583c22571384929c765e46e7db80bc3a38ac9cd41491e5020a1d62d087a9045d0b221d5e153616dfb8aeff4f0e658dc013553cbba7e8136dd56dcf39046a348978b8cdf1212e9e71490cc990756831c32005503cc06655475b8097520d7fe0a0fec05abf5b7d043129c06260a016b32fd49662d7883c9e5933c84ca6a646ba3aa32a2488b078d43d6b06d11e6c41d95b7ec6"
+        },
+        "validity": {
+            "not_after": "2024-10-01 16:04:00",
+            "not_before": "2024-07-03 16:04:01"
+        },
+        "version": "V3",
+        "extensions": {
+            "key_usage": [
+                "digitalSignature",
+                "keyEncipherment"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "CA": false,
+            "subject_key_identifier": "593ab22828c9b1660927d3c8481ea471b954f393",
+            "authority_key_identifier": {
+                "keyid": "bbbcc347a5e4bca9c6c3a4720c108da235e1c8e8"
+            },
+            "ca_information_access": {
+                "OCSP": "http://r10.o.lencr.org",
+                "CA Issuers": "http://r10.i.lencr.org/"
+            },
+            "subject_alternative_name": [
+                "*.company.io",
+                "*.host.io",
+                "*.ipinfo.dev",
+                "*.ipinfo.io",
+                "*.ipinfo.net",
+                "*.ipinfo.org",
+                "*.ipinfoio.com",
+                "*.useragent.io",
+                "company.io",
+                "host.io",
+                "ipinfo.dev",
+                "ipinfo.io",
+                "ipinfo.net",
+                "ipinfo.org",
+                "ipinfoio.com",
+                "useragent.io"
+            ],
+            "certificate_policies": [
+                "2.23.140.1.2.1"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f300f1007600eecdd064d5db1acec55cb79db4cd13a23287467cbcecdec3"
+        },
+        "thumbprint": "9ca9233f9c2c9b144de949715ca0db7e9bf50be9",
+        "serial_number": "44547c5b263f94c92bd25b1393d612d3be8",
+        "issuer": {
+            "C": "US",
+            "O": "Let's Encrypt",
+            "CN": "R10"
+        },
+        "subject": {
+            "CN": "ipinfo.io"
+        }
+    },
+    {
+        "size": 1332,
+        "public_key": {
+            "rsa": {
+                "key_size": 2048,
+                "modulus": "00d608ecf96568f069a93480168fa5454317ae725072fd67f197d49efa1cdc3a7062a3c4434971abde4646d362bddd6f80724b0bc7dcb40a5102218550e68f9d0ba9c8955e8871bb2a2b67522da88c74969114583987ebe09e671a3000e869d0ec9371efe322b2cc0073cb9e8c5cabae1b18149475e36102f9f2be8253fa8cce58e3a39cc8dc25186221ecc54d13c14a46b6b5f3b86d6f48fc46aabdecd1a65a98d7259be8be135c2dce3a224f9076330e72b5206fd345ae9ec66f2b56dd0661b157c2b08358df641f072e4948c5549acbb2f718d75fc3a9b26266d314094bd65b822a0c3125e95168899d6a712bed4b2f31d815c882a16acf87e5e1e2b7f8fb67",
+                "exponent": "010001"
+            },
+            "algorithm": "RSA"
+        },
+        "thumbprint_sha256": "d3041d777b5c6ea98792747b63eca4bc792d93002fce6e996b0755b26c461252",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "8cf0ad90a228e47e467cd74868e99b60f1df4a7bcf2ee11df51e2ea81784f01553e853c1668b89ebf3be295c5d219a2a9a8c8a3c4553c4d6246eb9dcef42a5dced142895878de99459f9809c2e8222a0f7edb9fe4d61bd84025a4f1187d7af1c83dd05d244bd24176f43780fb4193a9a573457a3f276e039d3b040f05cc2a08869ba8ecbc7ba9cff0ee75379809d42ea7720da432d86f8fb2afd9b2eefc4aecbfe0d4bf4d1b02e5bb2de0d4f410498f04c662bc096ebce273129822de0e5d28bb21894d1df7a0d107f1d6bc29d2e83bcafcb42652cdeeade32097a21810fbcf366c5af59faa40ef5a77df19ddab26074575415f628b6fcadf91a7b66a23835d9"
+        },
+        "validity": {
+            "not_after": "2021-07-29 21:05:43",
+            "not_before": "2021-04-30 21:05:43"
+        },
+        "version": "V3",
+        "extensions": {
+            "certificate_policies": [
+                "2.23.140.1.2.1",
+                "1.3.6.1.4.1.44947.1.1.1"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "tags": [],
+            "subject_alternative_name": [
+                "tenshi.linkcraft.app"
+            ],
+            "authority_key_identifier": {
+                "keyid": "142eb317b75856cbae500940e61faf9d8b14c2c6"
+            },
+            "ca_information_access": {
+                "CA Issuers": "http://r3.i.lencr.org/",
+                "OCSP": "http://r3.o.lencr.org"
+            },
+            "subject_key_identifier": "1a4a602ff4471c300ec71e4b5f75cf8b5cb7891b",
+            "key_usage": [
+                "ff"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f400f20077009420bc1e8ed58d6c88731f828b222c0dd1da4d5e6c4f943d",
+            "CA": true
+        },
+        "thumbprint": "91948e93c8c95c91b1abe3f401561d96ed9afe12",
+        "serial_number": "4f7be590e1a4b4de4ad85831f8233fdbcc6",
+        "issuer": {
+            "C": "US",
+            "CN": "R3",
+            "O": "Let's Encrypt"
+        },
+        "subject": {
+            "CN": "tenshi.linkcraft.app"
+        }
+    },
+    {
+        "size": 1284,
+        "public_key": {
+            "rsa": {
+                "key_size": 2048,
+                "modulus": "bcd17076e8681e86d1dd6a9ad069fa0a534b137c58e12af48d6f85a18b2017963929df4567b7cf95c0a243126298e2870a905b381921242338e137973c3fcb904103fd4ba420b87fd1324dcdda7c2dfdb184a5ac18e33d9a81d97e7dad4918b6bff82fabb3914f65944fa9662c8a8456cf006a0677dc770cfbc26ff113086377c3517286bb9d3456276892e918bed281f6edbf73b505d3b39b1d653d1bc914bb33be6d1708cf9f0974200503493b6059648846c2d3555a881f050438936bab1aea13eca406092215da94de2381e0eca252b8bbcfb96b713586b042e9899c44fb8842a1613a49582262cab1ba2c3ec42b1719c484eead6116d386ea320df466f3",
+                "exponent": "10001"
+            },
+            "algorithm": "RSA"
+        },
+        "thumbprint_sha256": "aed77a5c3bfbff4086584d2ee71e8263f9e87d72d27a7dc3efeb7bbf790597be",
+        "cert_signature": {
+            "signature": "831dbaf456eba39003fa9d67cf7a288b509dc0c71a5c19884992466c3f598353484b4499fdd2932cbcbeac0001c8a1a6dac9029696e86ff0dc8803d736c8bc32d43ff6d86d5d517356176e1a4a020a30965be7009a4b24a74fe9ae0f8058434bff06d0c9c66394305441f8125b650082bbd8afdc51b22d7e60a5f5a2dbc44cb58579b5de53fd3ba8455c2253bf8a60fd9a5aeb53f37fbf1b09d57ff51ac050df00fe052079ace97e8e994a22e4cb4401be51562f8a5aeb6dcf4e5c017ffab9457ec74a0d569242af36e7dfb52e9af18db33eefdaadbd200383dab3d826aea2650de8f84cc2bd9bf91614f58bf7079f9b590a6261b8b4ba663276f51fdd9ab6d7",
+            "signature_algorithm": "sha256RSA"
+        },
+        "validity": {
+            "not_after": "2023-09-19 09:34:08",
+            "not_before": "2023-06-21 09:34:09"
+        },
+        "version": "V3",
+        "extensions": {
+            "certificate_policies": [
+                "2.23.140.1.2.1"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "authority_key_identifier": {
+                "keyid": "142eb317b75856cbae500940e61faf9d8b14c2c6"
+            },
+            "subject_alternative_name": [
+                "puck443.startdedicated.net"
+            ],
+            "subject_key_identifier": "63a1a2f4c2075ac7f7014402855217656382d5f9",
+            "key_usage": [
+                "digitalSignature",
+                "keyEncipherment"
+            ],
+            "1.3.6.1.4.1.11129.2.4.2": "0481f100ef007500b73efb24df9c4dba75f239c5ba58f46c5dfc42cf7a9f35c4",
+            "CA": false,
+            "ca_information_access": {
+                "CA Issuers": "http://r3.i.lencr.org/",
+                "OCSP": "http://r3.o.lencr.org"
+            }
+        },
+        "thumbprint": "747c7c805281fd8ab06930857343927b9fa5ab6a",
+        "serial_number": "389d0c162e1a23fcf7a6ee4c64632b1b60c",
+        "issuer": {
+            "C": "US",
+            "CN": "R3",
+            "O": "Let's Encrypt"
+        },
+        "subject": {
+            "CN": "puck443.startdedicated.net"
+        }
+    },
+    {
+        "size": 1690,
+        "public_key": {
+            "algorithm": "EC",
+            "ec": {
+                "oid": "secp256r1",
+                "pub": "3059301306072a8648ce3d020106082a8648ce3d03010703420004fee973dd8f207f7a8874bfd477f5d5bbfbbe959e8432e64bc6bfbd47256472412afc816ab97335a77352f0050bdbd67932ad2040d26676ad744c127b6e5cf295"
+            }
+        },
+        "thumbprint_sha256": "2353a4644ccf8b84d3bc261632349d3abbe98fef3a78913347bed1d3e5f39446",
+        "cert_signature": {
+            "signature_algorithm": "sha256RSA",
+            "signature": "3f0eca3083f1e9815200939fe107654ffa0b33838057c38171b8f1b7b9092c378b7024693ea2f5d6f47cc88b35fb09d0ec770d60f03d2a5b5a82b4b91e8ecc19c7cff1e7e34276145030b18ce1118d2c064a1acb1e5e24067c86429e8bde17f790163f12cd28295cf6fb77e4d71a2c755ecef0ecb50fa61276dddfe48ea0fe4850d1e8858c7d22d1a6eaf2bdcff65c94021d2df1590d7f578b49813767302d00a052cdf963783980a0767eed54cf0052ae9d5fb7096652823e21b46d45ac55966700cc0e7573582560c162dba5129362bf3890c2ede330f3eb2e6628d767245e8f7173dd1772e8cb5908ca72ec83114d9491b3362df03d1b4e6f4349b9faacea"
+        },
+        "validity": {
+            "not_after": "2024-07-25 23:59:59",
+            "not_before": "2024-04-26 00:00:00"
+        },
+        "version": "V3",
+        "extensions": {
+            "authority_key_identifier": {
+                "keyid": "5168ff90af0207753cccd9656462a212b859723b"
+            },
+            "subject_key_identifier": "db005d50c911d8f5f6741f6ee7e76bde071fb37c",
+            "subject_alternative_name": [
+                "*.facebook.com",
+                "*.facebook.net",
+                "*.fbcdn.net",
+                "*.fbsbx.com",
+                "*.m.facebook.com",
+                "*.messenger.com",
+                "*.xx.fbcdn.net",
+                "*.xy.fbcdn.net",
+                "*.xz.fbcdn.net",
+                "facebook.com",
+                "messenger.com"
+            ],
+            "certificate_policies": [
+                "2.23.140.1.2.2"
+            ],
+            "key_usage": [
+                "digitalSignature",
+                "keyAgreement"
+            ],
+            "extended_key_usage": [
+                "serverAuth",
+                "clientAuth"
+            ],
+            "crl_distribution_points": [
+                "http://crl3.digicert.com/sha2-ha-server-g6.crl",
+                "http://crl4.digicert.com/sha2-ha-server-g6.crl"
+            ],
+            "ca_information_access": {
+                "OCSP": "http://ocsp.digicert.com",
+                "CA Issuers": "http://cacerts.digicert.com/DigiCertSHA2HighAssuranceServerCA.crt"
+            },
+            "CA": false,
+            "1.3.6.1.4.1.11129.2.4.2": "048201680166007500eecdd064d5db1acec55cb79db4cd13a23287467cbcecde"
+        },
+        "thumbprint": "f628ed11eafe77fcd29dd57b692bc07c6f5b68b3",
+        "serial_number": "5200ccb8f3e580203a83d8f3989d5af",
+        "issuer": {
+            "C": "US",
+            "O": "DigiCert Inc",
+            "OU": "www.digicert.com",
+            "CN": "DigiCert SHA2 High Assurance Server CA"
+        },
+        "subject": {
+            "C": "US",
+            "ST": "California",
+            "L": "Menlo Park",
+            "O": "Meta Platforms, Inc.",
+            "CN": "*.facebook.com"
+        }
+    }
+]
