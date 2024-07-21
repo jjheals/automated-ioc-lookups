@@ -36,6 +36,7 @@ class SSLCert(AbstractIOC):
     subject:dict = { 
         'CN': ''              
     }
+    subject_alt_name:list[str]
     
     
     def __init__(self, d:dict): 
@@ -52,6 +53,8 @@ class SSLCert(AbstractIOC):
         self.serial_number = d['serial_number']
         self.issuer = d['issuer']
         self.subject = d['subject']
+        self.subject_alt_name = d.get('extensions', {}).get('subject_alternative_name', [])
+        
         
     def to_dict(self) -> dict: 
         return {
@@ -89,3 +92,16 @@ class SSLCert(AbstractIOC):
             'subject_O': self.subject.get('O', ''),                                  # subject_O
             'subject_CN': self.subject.get('CN', '')                                 # subject_CN
         }
+        
+    
+    def alt_name_to_table_rows(self) -> list[dict]: 
+        """Returns this SSLCert's subject_alt_names as a list of dicts that can be used as entries
+        into a table with the columns "thumbprint", "alt_name"."""
+        return_dicts:list[dict] = []
+        for alt_name in self.subject_alt_name: 
+            return_dicts.append({
+                'thumbprint': self.thumbprint,
+                'alt_name': alt_name
+            })
+        
+        return return_dicts

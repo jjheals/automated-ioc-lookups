@@ -26,7 +26,9 @@ class VirusTotalAPI(AbstractAPI):
         'tld',
         'popularity_ranks',
         'reputation',
-        'total_votes'
+        'total_votes',
+        'jarm',
+        'registrar'
     ]
     
     # Base URL for the VT API
@@ -120,6 +122,14 @@ class VirusTotalAPI(AbstractAPI):
             try: 
                 response = requests.get(this_base_url + ioc['value'], headers=headers) 
                 data:dict = response.json()['data']['attributes']
+                
+                print(this_ioc_type)
+                
+                if this_ioc_type == 'Domain': 
+                    print(this_ioc_type)
+                    with open('tmp-domain.json', 'w+') as file: 
+                        json.dump(data, file, indent=4)
+                        
             except KeyError: 
                 # KeyError means no results found
                 print(f'\33[33mNOTICE: \033[90mNo results found for "{ioc["value"]}" (VirusTotal)')

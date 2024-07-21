@@ -84,7 +84,7 @@ def combine_vt_ipinfo_results(vt_results:dict[str, dict], ipinfo_results:dict[st
     ips:list[str] = []                  # Unique IPs in either set of results
     domains:list[str] = []              # Unique domains in either set of results
     ssl_cert_results:list[dict] = []    # SSL certs in either set of results
-
+    
     # Iterate over the VT results and add each value to the appropriate list 
     for ioc in vt_results:
         if IPAddress.match_ipv4_regex(ioc) or IPAddress.match_ipv6_regex(ioc): ips.append(ioc)
@@ -115,6 +115,7 @@ def combine_vt_ipinfo_results(vt_results:dict[str, dict], ipinfo_results:dict[st
         if last_https_cert: 
             ssl_thumbprint:str = last_https_cert.get('thumbprint', '')
             ssl_cert_results.append(last_https_cert)
+            
         else: ssl_thumbprint:str = None
         
         entry['network'] = these_vt_results.get('network', '')
@@ -137,10 +138,6 @@ def combine_vt_ipinfo_results(vt_results:dict[str, dict], ipinfo_results:dict[st
         ip_results.append(entry)
         
     # -- Iterate over the domains and construct the combined results -- #
-    
-    # TODO: add logic for iterating over the domains and constructing the entry to the domain 
-    # results dictionary. Requires creating the DB table for a Domain, DomainTargetsUser, etc. 
-    # first, and implementing other APIs for domain lookups if neccessary. 
     domain_results:list[dict] = []
     dns_results:list[dict] = []
     for domain in domains: 
@@ -164,7 +161,9 @@ def combine_vt_ipinfo_results(vt_results:dict[str, dict], ipinfo_results:dict[st
         entry['ssl_thumbprint'] = ssl_thumbprint
         entry['vt_harmless_votes'] = these_vt_results.get('total_votes', {}).get('harmless', -1)
         entry['vt_malicious_votes'] = these_vt_results.get('total_votes', {}).get('malicious', -1)
-                
+        entry['registrar'] = these_vt_results.get('registrar', '')
+        entry['jarm'] = these_vt_results.get('jarm', '')
+        
         # Add the entry to combined_results
         domain_results.append(entry)
 
@@ -178,9 +177,9 @@ def combine_vt_ipinfo_results(vt_results:dict[str, dict], ipinfo_results:dict[st
                     'type': dns_record.get('type', ''),
                     'value': dns_record.get('value', '')
                 })
-                
-    # Return the final list of dicts
-    return ip_results, domain_results, ssl_cert_results
+        
+    # Return the final lists of dicts
+    return ip_results, domain_results, dns_results, ssl_cert_results
 
 
 def lookup_iocs(vt_api:VirusTotalAPI, ipinfo_api:IPInfoAPI, iocs_as_df:pd.DataFrame, ignore_supradomains:list[str]=[], 
