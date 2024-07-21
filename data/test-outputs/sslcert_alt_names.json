@@ -1,0 +1,534 @@
+[
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.appengine.google.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.bdn.dev"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.origin-test.bdn.dev"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.cloud.google.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.crowdsource.google.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.datacompute.google.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.ca"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.cl"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.co.in"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.co.jp"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.co.uk"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.com.ar"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.com.au"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.com.br"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.com.co"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.com.mx"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.com.tr"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.com.vn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.de"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.es"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.fr"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.hu"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.it"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.nl"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.pl"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google.pt"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googleapis.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googlevideo.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.gstatic.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.gstatic-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googlecnapps.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googlecnapps.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googleapps-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googleapps-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "gkecnapps.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.gkecnapps.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googledownloads.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googledownloads.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "recaptcha.net.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.recaptcha.net.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "recaptcha-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.recaptcha-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "widevine.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.widevine.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "ampproject.org.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.ampproject.org.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "ampproject.net.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.ampproject.net.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "google-analytics-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google-analytics-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googleadservices-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googleadservices-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googlevads-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googlevads-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googleapis-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googleapis-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googleoptimize-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googleoptimize-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "doubleclick-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.doubleclick-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.fls.doubleclick-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.g.doubleclick-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "doubleclick.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.doubleclick.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.fls.doubleclick.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.g.doubleclick.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "dartsearch-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.dartsearch-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googletraveladservices-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googletraveladservices-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googletagservices-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googletagservices-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googletagmanager-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googletagmanager-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googlesyndication-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googlesyndication-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.safeframe.googlesyndication-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "app-measurement-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.app-measurement-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "gvt1-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.gvt1-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "gvt2-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.gvt2-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "2mdn-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.2mdn-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googleflights-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googleflights-cn.net"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "admob-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.admob-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googlesandbox-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googlesandbox-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.safenup.googlesandbox-cn.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.gstatic.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.metric.gstatic.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.gvt1.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.gcpcdn.gvt1.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.gvt2.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.gcp.gvt2.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.url.google.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.youtube-nocookie.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.ytimg.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "android.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.android.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.flash.android.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "g.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.g.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "g.co"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.g.co"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "goo.gl"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "www.goo.gl"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "google-analytics.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.google-analytics.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "google.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "googlecommerce.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.googlecommerce.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "ggpht.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.ggpht.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "urchin.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.urchin.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "youtu.be"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "youtube.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.youtube.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "youtubeeducation.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.youtubeeducation.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "youtubekids.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.youtubekids.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "yt.be"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.yt.be"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "android.clients.google.com"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.android.google.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.chrome.google.cn"
+    },
+    {
+        "thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "alt_name": "*.developers.google.cn"
+    }
+]
