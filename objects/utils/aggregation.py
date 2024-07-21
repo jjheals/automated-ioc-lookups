@@ -163,6 +163,7 @@ def combine_vt_ipinfo_results(vt_results:dict[str, dict], ipinfo_results:dict[st
         entry['vt_malicious_votes'] = these_vt_results.get('total_votes', {}).get('malicious', -1)
         entry['registrar'] = these_vt_results.get('registrar', '')
         entry['jarm'] = these_vt_results.get('jarm', '')
+        entry['creation_date'] = these_vt_results.get('creation_date', '')
         
         # Add the entry to combined_results
         domain_results.append(entry)

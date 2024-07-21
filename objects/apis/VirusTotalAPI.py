@@ -1,4 +1,6 @@
 import requests
+import datetime as dt 
+
 from ..ioc_types.SSLCert import SSLCert
 import json 
 from ..ioc_types import AbstractIOC
@@ -28,7 +30,8 @@ class VirusTotalAPI(AbstractAPI):
         'reputation',
         'total_votes',
         'jarm',
-        'registrar'
+        'registrar',
+        'creation_date'
     ]
     
     # Base URL for the VT API
@@ -122,14 +125,6 @@ class VirusTotalAPI(AbstractAPI):
             try: 
                 response = requests.get(this_base_url + ioc['value'], headers=headers) 
                 data:dict = response.json()['data']['attributes']
-                
-                print(this_ioc_type)
-                
-                if this_ioc_type == 'Domain': 
-                    print(this_ioc_type)
-                    with open('tmp-domain.json', 'w+') as file: 
-                        json.dump(data, file, indent=4)
-                        
             except KeyError: 
                 # KeyError means no results found
                 print(f'\33[33mNOTICE: \033[90mNo results found for "{ioc["value"]}" (VirusTotal)')
@@ -173,6 +168,12 @@ class VirusTotalAPI(AbstractAPI):
             except KeyError: 
                 # Key error means the 'last_analysis_stats' key doesn't exist
                 this_ioc_as_dict['reputation'] = -1
+            
+            # If we have "created_date" in the results, convert from the Unix timestamp
+            if 'creation_date' in this_ioc_as_dict: 
+                unix_ts:int = this_ioc_as_dict.get('creation_date')
+                created_date:dt.datetime = dt.datetime.fromtimestamp(unix_ts).strftime('%Y-%m-%d %H:%M:%S')
+                this_ioc_as_dict['creation_date'] = created_date
                 
             # Append this IOC to the return dict
             return_dicts.append(this_ioc_as_dict)

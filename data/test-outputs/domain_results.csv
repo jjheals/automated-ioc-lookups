@@ -1,2 +1,2 @@
-value,tld,ssl_thumbprint,vt_harmless_votes,vt_malicious_votes,registrar,jarm
-google.com,com,0b280e1bfffcc81bafd74e50f3ee7559bbd54624,353,54,MarkMonitor Inc.,27d40d40d29d40d1dc42d43d00041d4689ee210389f4f6b4b5b1b93f92252d
+value,tld,ssl_thumbprint,vt_harmless_votes,vt_malicious_votes,registrar,jarm,creation_date
+google.com,com,0b280e1bfffcc81bafd74e50f3ee7559bbd54624,353,54,MarkMonitor Inc.,27d40d40d29d40d1dc42d43d00041d4689ee210389f4f6b4b5b1b93f92252d,1997-09-15 03:00:00
