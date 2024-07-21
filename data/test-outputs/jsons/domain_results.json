@@ -1,0 +1,502 @@
+[
+    {
+        "value": "facebook.com",
+        "tld": "com",
+        "ssl_thumbprint": "a90c463cf41f39c84f627e8cd32ddabde5a5fdb7",
+        "vt_harmless_votes": 52,
+        "vt_malicious_votes": 32,
+        "registrar": "RegistrarSafe, LLC",
+        "jarm": "27d27d27d0000001dc41d43d00041d1c5ac8aa552261ba8fd1aa9757c06fa5",
+        "creation_date": "1997-03-29 01:00:00"
+    },
+    {
+        "value": "youtube.com",
+        "tld": "com",
+        "ssl_thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "vt_harmless_votes": 217,
+        "vt_malicious_votes": 19,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "27d40d40d29d40d1dc42d43d00041d4689ee210389f4f6b4b5b1b93f92252d",
+        "creation_date": "2005-02-15 00:13:12"
+    },
+    {
+        "value": "paypal.com",
+        "tld": "com",
+        "ssl_thumbprint": "1525470a8d269b4505247487be1fb371da1dbcc9",
+        "vt_harmless_votes": 4,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "29d25d00029d25d00041d42d00041d498142c3e7d0c2ae68193abd5dacf16d",
+        "creation_date": "1999-07-15 01:32:11"
+    },
+    {
+        "value": "cnbc.com",
+        "tld": "com",
+        "ssl_thumbprint": "ebd2d72a27aed352992ceb4209904a24e0396fcb",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "25d14d00025d25d00042d43d000000107066a9db8d16b0a001ff4969166ce7",
+        "creation_date": "1997-09-30 00:00:00"
+    },
+    {
+        "value": "twitter.com",
+        "tld": "com",
+        "ssl_thumbprint": "239c6a9b3fade4871b1f5527170eeebe04577d40",
+        "vt_harmless_votes": 28,
+        "vt_malicious_votes": 8,
+        "registrar": "CSC CORPORATE DOMAINS, INC.",
+        "jarm": "29d29d00029d29d00042d43d00041d598ac0c1012db967bb1ad0ff2491b3ae",
+        "creation_date": "2000-01-21 11:28:17"
+    },
+    {
+        "value": "thenextweb.com",
+        "tld": "com",
+        "ssl_thumbprint": "0d0cea3cfddb8bb067de6dc9636a552d066ae3b8",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "NameCheap, Inc.",
+        "jarm": "29d3dd00029d29d00042d43d00041d5de67cc9954cc85372523050f20b5007",
+        "creation_date": "2008-08-02 15:06:27"
+    },
+    {
+        "value": "venturebeat.com",
+        "tld": "com",
+        "ssl_thumbprint": "249db4aae1b1cfb959d97bf4b07ce7ffad39cde6",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "GoDaddy.com, LLC",
+        "jarm": "27d40d40d00040d00042d43d27d0002caefc9a0ed3fb9abe4eec77bc406c89",
+        "creation_date": "2005-03-14 14:41:22"
+    },
+    {
+        "value": "mashable.com",
+        "tld": "com",
+        "ssl_thumbprint": "3ffa2bd680ca22d105572d706d3d7df68ef24260",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "CSC CORPORATE DOMAINS, INC.",
+        "jarm": "27d3ed3ed0003ed00042d43d00041df04c41293ba84f6efe3a613b22f983e6",
+        "creation_date": "2005-07-19 10:50:34"
+    },
+    {
+        "value": "arstechnica.com",
+        "tld": "com",
+        "ssl_thumbprint": "b1ee7c3cba84c06b68d443d34855de96f8acd163",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "CSC CORPORATE DOMAINS, INC.",
+        "jarm": "29d29d00029d29d00029d29d29d29d00efabaa2e194cf5d86dd52d92433bab",
+        "creation_date": "1998-12-30 00:00:00"
+    },
+    {
+        "value": "apple.com",
+        "tld": "com",
+        "ssl_thumbprint": "1a0e4737ff91857ff63ddd23923a0495e9d5aba1",
+        "vt_harmless_votes": 26,
+        "vt_malicious_votes": 4,
+        "registrar": "NOM-IQ Ltd dba Com Laude",
+        "jarm": "27d27d27d29d27d00042d43d00041d6b270ad7628fa167a494d7af9d0b61fe",
+        "creation_date": "1987-02-19 00:00:00"
+    },
+    {
+        "value": "foxnews.com",
+        "tld": "com",
+        "ssl_thumbprint": "92a8545c8ce0754af700f0f3119ca79b3fe8babe",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 2,
+        "registrar": "GoDaddy Corporate Domains, LLC",
+        "jarm": "28d28d28d2ad28d22c42d42d000000996c218236a1fd203fd29824aa76026c",
+        "creation_date": "1995-06-21 00:00:00"
+    },
+    {
+        "value": "spotify.com",
+        "tld": "com",
+        "ssl_thumbprint": "692b3629f0b5fc1ba357a676e692ef301422346a",
+        "vt_harmless_votes": 5,
+        "vt_malicious_votes": 0,
+        "registrar": "Abion AB",
+        "jarm": "29d3fd00029d29d21c42d43d00041df48f145f65c66577d0b01ecea881c1ba",
+        "creation_date": "2006-04-23 05:07:50"
+    },
+    {
+        "value": "google.com",
+        "tld": "com",
+        "ssl_thumbprint": "0b280e1bfffcc81bafd74e50f3ee7559bbd54624",
+        "vt_harmless_votes": 353,
+        "vt_malicious_votes": 54,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "27d40d40d29d40d1dc42d43d00041d4689ee210389f4f6b4b5b1b93f92252d",
+        "creation_date": "1997-09-15 03:00:00"
+    },
+    {
+        "value": "github.com",
+        "tld": "com",
+        "ssl_thumbprint": "e7035bcc1c18771f792f90866b6c1df8dfaabdc0",
+        "vt_harmless_votes": 47,
+        "vt_malicious_votes": 5,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "27d27d27d00027d00041d41d000000aa5feb68b57d31b6dc713b6917a988e3",
+        "creation_date": "2007-10-09 14:20:50"
+    },
+    {
+        "value": "gizmodo.com",
+        "tld": "com",
+        "ssl_thumbprint": "4f356fb1cc8c53f3a7ec07c03e69ad1bbf6e6459",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "OVH sas",
+        "jarm": "27d3ed3ed0003ed1dc42d43d00041d6183ff1bfae51ebd88d70384363d525c",
+        "creation_date": "2002-07-01 12:57:10"
+    },
+    {
+        "value": "lifehacker.com",
+        "tld": "com",
+        "ssl_thumbprint": "7f9fc2da57b73eeeea1cdc726a279ee0dee4829c",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 1,
+        "registrar": "CSC CORPORATE DOMAINS, INC.",
+        "jarm": "27d3ed3ed0003ed00042d43d00041df04c41293ba84f6efe3a613b22f983e6",
+        "creation_date": "2004-09-08 12:04:52"
+    },
+    {
+        "value": "microsoft.com",
+        "tld": "com",
+        "ssl_thumbprint": "dea94e7ca6cbcd9078c232e292ae55d15c76b2fe",
+        "vt_harmless_votes": 60,
+        "vt_malicious_votes": 16,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "2ad2ad00000000000041d41d000000bb38434970f9ff5df16a5227d5bd9fa2",
+        "creation_date": "1991-05-02 00:00:00"
+    },
+    {
+        "value": "espn.com",
+        "tld": "com",
+        "ssl_thumbprint": "acf128572b1cad2af8d96752a28c407af0a17778",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "CSC CORPORATE DOMAINS, INC.",
+        "jarm": "29d29d00029d29d21c41d41d00041d38d8d683f08c154e73a9de64943d64e4",
+        "creation_date": "1994-10-04 00:00:00"
+    },
+    {
+        "value": "wired.com",
+        "tld": "com",
+        "ssl_thumbprint": "7298c7ee8fd0a7622d0da8277bfb0f02561ea737",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "CSC CORPORATE DOMAINS, INC.",
+        "jarm": "29d3fd00029d29d00029d3fd29d29d90a4e35b0c55a72ec96dbcea13826915",
+        "creation_date": "1992-11-20 00:00:00"
+    },
+    {
+        "value": "9to5mac.com",
+        "tld": "com",
+        "ssl_thumbprint": "cc17de615500b376b1c418a6757bae9525e576ae",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "Tucows Domains Inc.",
+        "jarm": "27d40d40d00040d00042d43d27d0002caefc9a0ed3fb9abe4eec77bc406c89",
+        "creation_date": "2007-01-04 23:03:53"
+    },
+    {
+        "value": "huffpost.com",
+        "tld": "com",
+        "ssl_thumbprint": "635344152829f110418850a60d1da2412f660e97",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "29d29d00029d29d21c41d41d00041d38d8d683f08c154e73a9de64943d64e4",
+        "creation_date": "2005-03-10 12:07:10"
+    },
+    {
+        "value": "cnn.com",
+        "tld": "com",
+        "ssl_thumbprint": "ab69b53567c537d9a2f1608debae545353303102",
+        "vt_harmless_votes": 3,
+        "vt_malicious_votes": 2,
+        "registrar": "NOM-IQ Ltd dba Com Laude",
+        "jarm": "29d3fd00029d29d00041d41d00041d6b5eefa2404a56c2ced79a0d16afe36c",
+        "creation_date": "1993-09-22 00:00:00"
+    },
+    {
+        "value": "businessinsider.com",
+        "tld": "com",
+        "ssl_thumbprint": "7a00a7e718f7f921d8e8ee066b89124d3ac93ce9",
+        "vt_harmless_votes": 1,
+        "vt_malicious_votes": 0,
+        "registrar": "GoDaddy.com, LLC",
+        "jarm": "29d3fd00029d29d00029d3fd29d29d90a4e35b0c55a72ec96dbcea13826915",
+        "creation_date": "1998-03-06 00:00:00"
+    },
+    {
+        "value": "rottentomatoes.com",
+        "tld": "com",
+        "ssl_thumbprint": "abe54ddcb781d958d2a10ea95e872b8ea39c47ad",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "2ad2ad0002ad2ad00042d42d00000069d641f34fe76acdc05c40262f8815e5",
+        "creation_date": "1999-05-14 04:36:32"
+    },
+    {
+        "value": "instagram.com",
+        "tld": "com",
+        "ssl_thumbprint": "032007231f10b3156dcbc6aa0d0edef76080d1bf",
+        "vt_harmless_votes": 13,
+        "vt_malicious_votes": 4,
+        "registrar": "RegistrarSafe, LLC",
+        "jarm": "27d27d27d0000001dc41d43d00041d1c5ac8aa552261ba8fd1aa9757c06fa5",
+        "creation_date": "2004-06-04 09:37:18"
+    },
+    {
+        "value": "nbcnews.com",
+        "tld": "com",
+        "ssl_thumbprint": "f7aa9e440101fd5512e57e2fcbd7c067566b2474",
+        "vt_harmless_votes": 1,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "2ad2ad16d2ad2ad22c2ad2ad2ad2ad579b2ec9bfaf00aff9d6fe780b7932ae",
+        "creation_date": "1997-06-26 00:00:00"
+    },
+    {
+        "value": "linkedin.com",
+        "tld": "com",
+        "ssl_thumbprint": "adff7ebd2bec89f9afc0f3bd396cf7aa8a620c19",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "2ad2ad16d0000000002ad2ad2ad2ad722bf6cfe15c386acadd767c8c1231e9",
+        "creation_date": "2002-11-02 11:38:11"
+    },
+    {
+        "value": "bloomberg.com",
+        "tld": "com",
+        "ssl_thumbprint": "0195c2b17b175e3cf766a29f2df3fc484d295d7c",
+        "vt_harmless_votes": 1,
+        "vt_malicious_votes": 0,
+        "registrar": "CSC CORPORATE DOMAINS, INC.",
+        "jarm": "29d29d00029d29d00041d41d00041db78309d03c04b7072bacbf1ce396279b",
+        "creation_date": "1993-09-29 00:00:00"
+    },
+    {
+        "value": "forbes.com",
+        "tld": "com",
+        "ssl_thumbprint": "5049fb11e5a36df88316e24d2ef5b7880c614fe1",
+        "vt_harmless_votes": 1,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "29d3fd00029d29d00029d3fd29d29d90a4e35b0c55a72ec96dbcea13826915",
+        "creation_date": "1993-06-17 03:00:00"
+    },
+    {
+        "value": "ebay.com",
+        "tld": "com",
+        "ssl_thumbprint": "a8c6abf8e2ecefc8e479e014892ecb6951cfcf6e",
+        "vt_harmless_votes": 4,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "29d29d00029d29d00041d41d00000069d641f34fe76acdc05c40262f8815e5",
+        "creation_date": "1995-08-04 00:00:00"
+    },
+    {
+        "value": "zdnet.com",
+        "tld": "com",
+        "ssl_thumbprint": "a132f4abf921028f6cd559a7b9705785bc885d6f",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "GoDaddy Corporate Domains, LLC",
+        "jarm": "29d3fd00029d29d21c42d43d00041df48f145f65c66577d0b01ecea881c1ba",
+        "creation_date": "1995-04-27 00:00:00"
+    },
+    {
+        "value": "amazon.com",
+        "tld": "com",
+        "ssl_thumbprint": "e60be059bc69086866c764508627b11fb186ba62",
+        "vt_harmless_votes": 26,
+        "vt_malicious_votes": 5,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "29d29d00029d29d21c41d41d000000baee6456a90c4706c37778b7ac8d25d4",
+        "creation_date": "1994-11-01 01:00:00"
+    },
+    {
+        "value": "usatoday.com",
+        "tld": "com",
+        "ssl_thumbprint": "694ce9a46a88fddfe5f582c68fc9122742997880",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "GoDaddy Corporate Domains, LLC",
+        "jarm": "29d3fd00029d29d00041d41d00041d6b5eefa2404a56c2ced79a0d16afe36c",
+        "creation_date": "1994-04-29 00:00:00"
+    },
+    {
+        "value": "engadget.com",
+        "tld": "com",
+        "ssl_thumbprint": "ba251e85bbba52a564de299b1bdcfe0f490aa95d",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "27d27d27d3fd27d1dc41d41d000000937221baefa0b90420c8e8e41903f1d5",
+        "creation_date": "2004-01-23 13:13:17"
+    },
+    {
+        "value": "yahoo.com",
+        "tld": "com",
+        "ssl_thumbprint": "489412cd5ffd99e440fbbde947aa948c7bf9f1ab",
+        "vt_harmless_votes": 15,
+        "vt_malicious_votes": 8,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "27d27d27d3fd27d1dc41d41d000000937221baefa0b90420c8e8e41903f1d5",
+        "creation_date": "1995-01-18 03:00:00"
+    },
+    {
+        "value": "macrumors.com",
+        "tld": "com",
+        "ssl_thumbprint": "5d0c1a0c252672e13940a5f66d7b661b0417a39d",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 1,
+        "registrar": "Moniker Online Services LLC",
+        "jarm": "27d3ed3ed0003ed1dc42d43d00041d6183ff1bfae51ebd88d70384363d525c",
+        "creation_date": "2000-02-24 16:07:43"
+    },
+    {
+        "value": "cnet.com",
+        "tld": "com",
+        "ssl_thumbprint": "2756fa4b873a66973c3db4b023282f2eeac47849",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "GoDaddy Corporate Domains, LLC",
+        "jarm": "29d3fd00029d29d21c42d43d00041df48f145f65c66577d0b01ecea881c1ba",
+        "creation_date": "1994-03-05 00:00:00"
+    },
+    {
+        "value": "theguardian.com",
+        "tld": "com",
+        "ssl_thumbprint": "b7335bbe95309740d381c43ad239dd713a2c7d5c",
+        "vt_harmless_votes": 1,
+        "vt_malicious_votes": 1,
+        "registrar": "GoDaddy.com, LLC",
+        "jarm": "29d29d00029d29d00041d41d00041d6b5eefa2404a56c2ced79a0d16afe36c",
+        "creation_date": "1994-07-06 00:00:00"
+    },
+    {
+        "value": "bing.com",
+        "tld": "com",
+        "ssl_thumbprint": "f07063e6c5a13f3e40927d3b22661ad9f8d8b894",
+        "vt_harmless_votes": 21,
+        "vt_malicious_votes": 7,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "2ad2ad16d00000000042d42d00042da2848ac73c4322216e1f70096bf2f435",
+        "creation_date": "1996-01-29 00:00:00"
+    },
+    {
+        "value": "techcrunch.com",
+        "tld": "com",
+        "ssl_thumbprint": "b692cb10833114bace446cf0bb2e75cf995be857",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "27d27d27d3fd27d1dc41d41d000000937221baefa0b90420c8e8e41903f1d5",
+        "creation_date": "2005-06-10 18:56:20"
+    },
+    {
+        "value": "wikipedia.org",
+        "tld": "org",
+        "ssl_thumbprint": "6bd199678660ca99df80dc6a6b7c2d207a684f9f",
+        "vt_harmless_votes": 21,
+        "vt_malicious_votes": 1,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "28d28d28d00028d00042d42d0000005a3e96c1dfa4bdb24b8b3c04cae18cc3",
+        "creation_date": "2001-01-12 19:12:14"
+    },
+    {
+        "value": "nytimes.com",
+        "tld": "com",
+        "ssl_thumbprint": "0dbdc329321b7192c1bb111e28294a563fd7c93e",
+        "vt_harmless_votes": 1,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "29d3fd00029d29d00029d3fd29d29d90a4e35b0c55a72ec96dbcea13826915",
+        "creation_date": "1994-01-18 00:00:00"
+    },
+    {
+        "value": "weather.com",
+        "tld": "com",
+        "ssl_thumbprint": "ea0fb5cb0f891165bc3fc4ba92f74bf1999f1993",
+        "vt_harmless_votes": 1,
+        "vt_malicious_votes": 0,
+        "registrar": "CSC CORPORATE DOMAINS, INC.",
+        "jarm": "28d28d28d2ad28d00042d42d000000ddf24ac27c940ce4e946c6a258c784fb",
+        "creation_date": "1994-08-09 00:00:00"
+    },
+    {
+        "value": "imdb.com",
+        "tld": "com",
+        "ssl_thumbprint": "779150784dce621d2f3fa31f16eefcaa3154f5b7",
+        "vt_harmless_votes": 1,
+        "vt_malicious_votes": 0,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "29d29d00029d29d21c41d41d000000baee6456a90c4706c37778b7ac8d25d4",
+        "creation_date": "1996-01-05 00:00:00"
+    },
+    {
+        "value": "netflix.com",
+        "tld": "com",
+        "ssl_thumbprint": "6d5cdb96aeda1cf73730a44af8f48412bd74917d",
+        "vt_harmless_votes": 13,
+        "vt_malicious_votes": 1,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "27d27d27d00027d1dc42d43d00041d6183ff1bfae51ebd88d70384363d525c",
+        "creation_date": "1997-11-11 00:00:00"
+    },
+    {
+        "value": "slashdot.org",
+        "tld": "org",
+        "ssl_thumbprint": "d8ff9e58a79eeb1c0d282224202f3bc7123faa2f",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "GoDaddy.com, LLC",
+        "jarm": "27d3ed3ed0003ed00042d43d00041df04c41293ba84f6efe3a613b22f983e6",
+        "creation_date": "1997-10-05 00:00:00"
+    },
+    {
+        "value": "wordpress.com",
+        "tld": "com",
+        "ssl_thumbprint": "c1481a125509a2a4813f8fa4239cb34178c0b652",
+        "vt_harmless_votes": 3,
+        "vt_malicious_votes": 1,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "27d40d40d29d40d00042d43d27d000c9fcdecbec892370ca632d7e657cf74f",
+        "creation_date": "2000-03-03 07:13:23"
+    },
+    {
+        "value": "bbc.com",
+        "tld": "com",
+        "ssl_thumbprint": "58a04956fd02474994432c76edc07da1f41c9438",
+        "vt_harmless_votes": 0,
+        "vt_malicious_votes": 0,
+        "registrar": "TUCOWS, INC.",
+        "jarm": "29d29d00029d29d21c41d41d00041df427507e4bd8bb5d051a72fd60418ac0",
+        "creation_date": "1989-07-15 00:00:00"
+    },
+    {
+        "value": "zoom.us",
+        "tld": "us",
+        "ssl_thumbprint": "adff079196734598ab682ec6952a992719316982",
+        "vt_harmless_votes": 7,
+        "vt_malicious_votes": 6,
+        "registrar": "MarkMonitor, Inc.",
+        "jarm": "29d3dd00029d29d00042d43d00041d5de67cc9954cc85372523050f20b5007",
+        "creation_date": "2002-04-24 11:03:39"
+    },
+    {
+        "value": "reddit.com",
+        "tld": "com",
+        "ssl_thumbprint": "87b82aac8718a50b142523a16275b9d2ec9daabf",
+        "vt_harmless_votes": 24,
+        "vt_malicious_votes": 1,
+        "registrar": "MarkMonitor Inc.",
+        "jarm": "29d29d00029d29d00041d41d00041d6b5eefa2404a56c2ced79a0d16afe36c",
+        "creation_date": "2005-04-29 13:59:19"
+    }
+]
