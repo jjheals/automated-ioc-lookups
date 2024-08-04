@@ -50,7 +50,7 @@ In config.json, add the following (and be sure to add your actual API tokens as 
 
 **Using the program**
 
-You can follow the instructions in [notebook.ipynb](./notebook.ipynb) to see how to integrate the necessary functions and classes.
+You can follow the instructions in [lookup-notebook.ipynb](./lookup-notebook.ipynb) to see how to integrate the necessary functions and classes.
 
 The notebook is flexible and explains the general process for how the APIs are called, the results combined, and the outputs constructed. This should be sufficient for basic use cases, but if you need more information on any of the functions or want to explore how the integrations actually work, you can refer to the [objects/](./objects/) folder. This folder (and its subfolders) contains all the source code, including class and function definitions. 
 
